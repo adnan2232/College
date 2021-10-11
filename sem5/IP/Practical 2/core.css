@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.College_name{
+    margin-left: 35%;
+}
+
+.Branches{
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.Branches > .Oddsem{
+    position: relative;
+    margin-left: 20%;
+}
+
+.Branches>.Branch{
+    margin-left:210px;
+}
+
+.Branches>.Branch>li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.Branches >.Branch > li>a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.TimeTable{
+
+        margin-top: 5%;
+        width: 90%;
+        height: 700px;
+        margin-left: 90px;
+}
+
+.TimeTable > .TT_head{
+    padding-bottom: 30px;
+}
+
+
+
+table,th,td{
+    position: relative;
+    border: 2px solid black;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+
+}
+
+
+.Break{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}

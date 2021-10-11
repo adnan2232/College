@@ -1,0 +1,4 @@
+times-new roman size 12
+alignment justify
+line spacing 1
+remove hyper link

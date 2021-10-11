@@ -1,0 +1,3 @@
+Exp1: All arithmetic in TASM .MASM.EMU8086
+	1. Mov - (Data Transfer instruction) 
+	2. Add - 

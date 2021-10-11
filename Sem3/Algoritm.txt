@@ -1,0 +1,29 @@
+Algorithm:
+1)	Start Visual Studio Code(or any other python  code editor)
+2)	Install Python Extension
+3)	Install Virtual environment using pip in python
+4)	Create Virtual Environment using following command in terminal:
+		 py -m venv environment_name
+5)	Active Virtual Environment.
+6)	Install Django framework using pip
+7)	Start Django project by following command:
+django-admin startproject project_name
+8)	Check if it is working properly or not by running the server using following code:
+Python manage.py runserver (Make sure you’re in your project directory where manage.py is located)
+9)	Create an apps folder which will hold all the apps in project
+10)Create an app called core using following command:
+Python manage.py createapp app_name
+11) Core app will control front page, signup, login page and base, base.html will be extended by most of our apps HTML
+12)After creation of any app register it on INSTALLED_APPS which is located in setting.py
+13) In core app create a template folder which will hold all html files of core app
+14)base.html contains layout of page if user is login it will shows search field, notification tab, message box, feed, profile, edit profile and logout button which will be programmed in other apps
+and if user is not login it will show login and signup button which will be control by django form.
+15)view.py control backend and all the functions in view.py will be registered on urls.py which help us to load our html on web page
+16)Frontpage.html implements base.html and shows message welcome to quack quack on screen and it will be loaded as home page
+17)login and signup html will show us interface of login and signup and it will be linked to inbuilt form which help us to control activity of login and signup
+18) when user will signup his account it will register on Django User model which is a table in model, Django provides easy way to create data base and handle it. Note: Every view is needed to be register in urls.py
+19)At last we need to register our app on admin site using admin.py which will help us to manage our page using admin site.
+20)Now we will create quackerprofile app in apps folder which will look after all the user profile activity 
+21)In models.py of quackerprofile we will create a class called Quackerprofile which will inherit Model class from models it will help us to create table in backend, we will declare 3 parameter in this class user, follows and avatar which will be fields of our table Quackerprofile 
+
+A
