@@ -1,0 +1,16 @@
+%{
+int l=0,s=0,w=1,c=0;
+%}
+%%
+[\n] l++;
+[' '] s++,w++;
+[^' '\n\t] c=c+yyleng;
+%%
+int main()
+{
+yylex();
+printf("\nNo. of total lines:%d",l);
+printf("\nNo of total spaces %d",s);
+printf("\nNo of total words:%d",w);
+printf("\nNo of total characters:%d",c);
+}
