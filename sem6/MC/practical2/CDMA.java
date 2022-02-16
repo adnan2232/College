@@ -74,7 +74,7 @@ public class CDMA {
 				wtable[i1][j1] = 1;
 				wtable[i1][j2] = 1;
 				wtable[i2][j1] = 1;
-				wtable[i2][j2] = 1;
+				wtable[i2][j2] = -1;
 			}
 			else {
 
@@ -123,7 +123,7 @@ public class CDMA {
 		//data bits corresponding to each station
 		data[0] = -1;
 		data[1] = -1;
-		data[2] = 0;
+		data[2] = 1;
 		data[3] = 1;
 		
 		CDMA channel = new CDMA();
