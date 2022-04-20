@@ -1,6 +1,6 @@
 %{
 
-#include "y.tab.h"
+#include "sql.tab.h"
 
 %}
 
