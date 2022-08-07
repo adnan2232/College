@@ -1,0 +1,27 @@
+%option noyywrap
+%{
+	#include<stdio.h>
+%}
+
+%%
+- {printf("- operator");}
+\/ printf("/ operator");
+\+ {printf("+ operator");}
+\* {printf("* operator");}
+\> {printf("> operator");}
+\< {printf("< operator");}
+\>= {printf(">= operator");}
+\<= {printf("<= operator");}
+= {printf("= operator");}
+== {printf("== operator");}
+[0-9]+ {printf("Number");}
+[A-Za-z][A-Za-z0-9_]* {printf("Identifier");}
+.* {printf("Cannot be identified");} 
+
+%%
+int main()
+{
+	printf("Enter operator or operand: ");
+	yylex();
+	return 0;
+}
