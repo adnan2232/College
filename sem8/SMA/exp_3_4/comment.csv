@@ -1,0 +1,816 @@
+comment_id,post_id,parent_id,body,created_on,upvotes,author_id,author_name
+jfkvwx0,12glkw4,t3_12glkw4,Hardware wasn't ready for Python in that time,2023-04-09 15:27:18,5,22vat21u,DusikOff
+jfnha98,12glkw4,t3_12glkw4,"Because Python was developed with the conceit that memory is cheap and plentiful. It took time for consumer level hardware make this true.
+
+[Massive memory overhead: Numbers in Python and how NumPy helps](https://pythonspeed.com/articles/python-integers-memory/)",2023-04-10 02:55:16,2,4wtjvsh6,FredVIII-DFH
+jflnf2e,12glkw4,t3_12glkw4,Perl was *the* scripting language in the early-mid 2000s. I took a look at it and hated the syntax. Python made much more sense to me and a lot of other people but it took time for a critical mass of users to catch on. Add to that the massive increase in processing power and concern over developer productivity and you have a compelling case for Python.,2023-04-09 18:37:04,2,4i9hp,tommasz
+jflbch7,12glkw4,t3_12glkw4,"I was a web developer between 2000 and 2010, and at that time, although Python was a better language than e.g. PHP, this latter was much better for web development. PHP was designed as a templating language (for C++), and coming from this angle, it was just simply better equiped for the web from the very beginning. In the meantime, web technology has evolved a lot, and also the Python ecosystem is way better than it was 10-20 years ago.
+
+The same stands for Java and C#. The Python ecosystem was just simply not competitive against these behemots (in the early 2000ies).
+
+A programming language has to find a sweet spot on the market to be successful. And while Guido van Rossum and others have been working on the numerical capabilities of Python since 1995, Python started to enjoy this benefit only after the launch of Pandas (I guess).",2023-04-09 17:13:45,2,8hi6986p,Asleep-Dress-3578
+jfmk972,12glkw4,t1_jflbch7,"Adding on to this from my POV, early web in the early 2000's was Java/JSP if you were enterprise, ASP if you were a Windows shop, and LAMp(hp) if you were startups aka poor aka bleeding edge.  A few years prior to that timeframe, ColdFusion had great market share in both enterprise and Windows.  A few years after that, .NET became dominant after ASP, but the core three were still more or less the same.  Ruby might have chipped away at PHP, but clearly that never overtook it.
+
+Python was kind of ""just around.""  Plone was its only killer app, but it kept it alive.  CMS was a big enterprise need that didn't have an elegant solution, and so people were trying everything.  Google was using it for a lot of scientific research and from there, it crept into the research world, because the syntax is easy, where it got a stranglehold.  (Just five years ago, I was working at a bioresearch lab, and I can't tell you how much bad Python 2.7 was still around.). Being in research, it serendipitously positioned itself into the math and AI boom that we're in today, and it's everywhere.
+
+So basically, Plone and Google kept it alive long enough for dumb luck to take over and show people how good it was.  Otherwise, I think it'd just be another niche academic language.",2023-04-09 22:33:38,3,380he,snapetom
+jfl1jep,12glkw4,t3_12glkw4,"I did some stuff in Python and at the time there was some consulting company doing stuff in Java who decided to go all out spreading FUD about Python and my work. Probably there was a lot of that around. Joke’s on them I do stuff in Python now somewhere else for way more money, meanwhile they are stuck maintaining their Java code not to mention even worse legacy code in an obscure and terrible language.",2023-04-09 16:06:24,2,w9ou99g7,Bling-Crosby
+jfm82hb,12glkw4,t3_12glkw4,"I was pitching Python-based CMS (Plone) for a government project in around ~2006. The project worth was somewhere between 100k - 1M EUR.
+
+It was public bidding and a paper-intensive process; we delivered them a 200 pages proposal. We got invited to the steering committee meeting who was deciding who will get the project.
+
+They asked the questions
+
+- What is Python
+
+- Does it run on Java
+
+- Does it use Oracle database
+
+It was a trip wasted, not to mention the work to put the proposal together.
+
+We did not get the project. A lot of things have improved in 20 years, but this was the atmosphere of 90s and early 00s. In 00s Linux started to become popular and in 10s Python and JavaScript both become ""professional grade"" languages.
+
+After dealing with software for a couple of decades I believe it all boils down the trust and awareness. It needs to work and it needs to work for many years before people can put their trust in it. Enough people need to talk about it. This is also why Lisp, Haskell, etc. are not successful.",2023-04-09 21:04:51,4,b0r61,moo9001
+jfmfews,12glkw4,t1_jfm82hb,"Plenty of people people in the early/mid 2000s made their living building Zope and Plone stuff on contract for the US government. They had figured out how to tell the procurement people the right things, and build their apps to comply with all the regulations, and did quite well.
+
+I knew quite a few of them when I was starting out, and met more as time went on and they started switching over to Django.",2023-04-09 21:57:32,3,1s6u,ubernostrum
+jfkusw0,12glkw4,t3_12glkw4,Took a long time for dinosaurs to adopt OOP.,2023-04-09 15:19:29,9,n0q5v7sz,CevicheCabbage
+jfkzz2m,12glkw4,t1_jfkusw0,same goes for PHP,2023-04-09 15:55:48,4,3mjzuttw,Barn07
+jflshzn,12glkw4,t1_jfkusw0,Wait until you move away from it,2023-04-09 19:13:25,5,dkznt,canibanoglu
+jflhy57,12glkw4,t1_jfkusw0,"OOP is abused today, used on problems that another paradigm could solve easier, better, and safer",2023-04-09 17:58:35,7,9xh94vz,jisuskraist
+jfl69hb,12glkw4,t3_12glkw4,"Two trends existed in myopic view: ( like literally this is what I remember)
+
+Trend 1: Google started using it on the backend. Big companies like that quickly change the math on python. Before a big company adopts it criticism are answered with debate. After a a big company adopts it criticism are answered with ... Yeah but Google uses it.
+
+Trend 2: killer data science features caused the final explosion. Sklearn had an big overtime impact on machine learning that literally was not as well executed in any other languages. R was piece meal. C++ was comically complicated. Etc. Then came deep learning and Google again pushed python way out to the lead on deep learning with tensorflow. There were competitors but there's no doubt in my mind who won.  Keras simplified it for the masses. If r had been the stand out deep learning platform early. I dunno what happens to history.
+
+So why python? Google. You might ask why they converted YouTube to python and probably get a but wait there is more! But I don't know.",2023-04-09 16:38:56,9,5q7hwlqb,quts3
+jfl5o6m,12glkw4,t3_12glkw4,"Java started out with a huge corporate backing, and a goal of literally running everywhere, but then leveled off a bit as the hype died down, and therefore hasn't been marketed or improved as aggressively. I would say it's still improving and possibly growing, but it's bogged down with the technical debt of its corporate origin and C++ -lite design and the ways people have adapted to use it.
+
+Python started out being used for one person's needs and just kept gradually improving and growing, even shedding its skin with the 2-3 transition so it could drop the technical debt of its early design. While it has been marketed, its growth and improvement have been more organic and steady. As a result it took longer to get popular and then reach its current size.",2023-04-09 16:34:48,5,1hwcg,ddollarsign
+jfoxe42,12glkw4,t1_jfl5o6m,I know that in the long run 2-3 was a good thing but man it still fucks things up. Try using Ansible across systems of various ages with modules of various adaptability…,2023-04-10 13:15:59,2,e0cou,LifeHasLeft
+jfksnh7,12glkw4,t3_12glkw4,Performance went bye bye with dynamic typing at that time,2023-04-09 15:03:57,26,cna2c5we,stupid_design
+jfktq5f,12glkw4,t1_jfksnh7,"right, python was (and is) extremely slow.  Like an order of magnitude too slow.   Numpy makes it comparable to other languages, and that came out in 2005.",2023-04-09 15:11:42,21,g7mpqsdg,NorthImpossible8906
+jfl9sap,12glkw4,t3_12glkw4,"Multiple reasons, here's the timeline that I recall:
+
+   * mid-90s:  many (most?) programmers weren't yet sold on interpreted languages and dynamic typing yet.  VB was useful, but wasn't well-respected, perl was mostly for reporting or other small utilities, and rexx was super-cool, but didn't have a huge reputation on unix & windows.
+   * late-90s: Perl established the legitimacy of interpreted languages for backend application development.  Few people had heard of python by this time. 
+   * early-00s: many people started looking for a light-weight alternative to the heavy boilerplate of Java and something more readable, and with stricter tyuping than Perl - and started using Python. Python was very capable, jython looked promising.  Given that the Perl community really made the case for interpreted languages to be taken seriously - there was an *enormous* amount of hostility towards Python from the Perl community.
+   * late-00s: python's future seemed questionable given the enthusiasm and rapid growth of the ruby-community once rails took off.  Python's migration to v3 was a bit of disaster but it finally hit the tipping point fairly suddenly right at the middle of the decade which really opened it up for growth.
+   * 10s: data science began taking off and python was the preferred language, python got picked up by a lot of schools, ruby declined, and the trajectory was set.
+
+EDIT; fixed some typos, added a bit",2023-04-09 17:02:57,13,3fv3g,kenfar
+jfkxc5j,12glkw4,t3_12glkw4,"It had no marketing department and it had to prove itself against Perl for sysadmin scripting, Ruby for OOP programming, PHP for web programming, FORTRAN for numeric computing, etc.
+
+One by one it overcame each of them over time. Which is actually a miracle, given how few programming languages achieve what Python has.",2023-04-09 15:37:24,41,u1ac,Smallpaul
+jfl58l4,12glkw4,t1_jfkxc5j,"I don't think it beats php for web. The problem with php is you can ONLY do web, while python can do many more things",2023-04-09 16:31:49,2,4pihf,thereshegoes
+jflc4h7,12glkw4,t3_12glkw4,"As someone who has been with Python from around 2003 this whole thread breaks my head. The assumptions are just wildly off base. The question you should ask OP is how did Python get so big at all.
+
+Python was an outsider, backed by no large companies, it grew up in a time of dominant tech being proprietary. “Open source” was scary and confusing to most of the industry. We were exceptionally avant-garde for trying to run Python in production environments.
+
+It still did well because it’s proven time and again to be superior. That’s all.",2023-04-09 17:19:09,18,xi5g,deadwisdom
+jfkx62k,12glkw4,t3_12glkw4,"Bg: I've programmed professionaly for ~20 years. Ive been paid to write 9 different programming languages and have used 19. I currently do almost all my work in python. 
+
+1. Python 1 was primitive. It wasn't much better than perl, and worse in some ways. Missing basics like classes. So many looked, and moved on, for quite a while
+2. Performance was and is $hit, comparatively. It needed hardware to catch up to make it's absolute performance acceptable for many purposes.
+3. Library {standard and otherwise} needed a while to build. General purpose languages need a large library to become effective for general use. No one wants to deal with raw sockets every time you need to connect to a network resource, etc. 
+
+There was clearly a need for better options at the time.
+Matlab was rapidly gaining in popularity in 1994, esp for numeric programming: Python has largely supplanted it for many purposes. 
+Java was cross platform, intended to be a gp Lang for many things (though not scripting) 
+C# doomed as win only
+
+Python's ability to move from simple, interpreted, but complete scripting lang , all the way to large complex application is fairly unique. 
+
+The only thing that python has lacked, until recently, is decent ui options. There are various web or none web-based ones out there, but it feels like that is close to being solved. 
+
+I'm sure many will disagree with my opinions here: save your time. I'm not really interested in debating. Just throwing out my 2 cents.",2023-04-09 15:36:12,89,j34pzwcy,gravity_rose
+jfn6y4n,12glkw4,t1_jfkx62k,"As someone who uses matlab every day to design airplanes, we are never going to be able to fully transition to python no matter how much I push for it. Simulink not talking to the python API fast enough (pytorch sucks omg) and bode plots for control systems. Will never happen and bums me out :(",2023-04-10 01:29:26,1,2ww74vu,arvarnargul
+jfn6qii,12glkw4,t1_jfkx62k,"It also took a long time for people to accept the ""white space as control flow"" thing.  That used to be the standard objection to the language.",2023-04-10 01:27:41,1,8i39sg,ucblockhead
+jfl54f1,12glkw4,t1_jfkx62k,"Wow, that experience is massive! What are some books you recommend to improve general programming skills at work? Like, a book or resource that you went through and it resonated with daily routine coding work.",2023-04-09 16:30:59,0,1047pi,AbdussamiT
+jflebut,12glkw4,t1_jfkx62k,"I don’t think pythons ui situation has gotten any better, instead the industry has moved away from native apps/guis so it just doesn’t matter anymore.",2023-04-09 17:33:55,2,5odgp,Alphasite
+jfowadl,12glkw4,t1_jfkx62k,"When you view python as an easy to read alternative to perl, a lot of design paradigms make sense.",2023-04-10 13:06:42,2,e0cou,LifeHasLeft
+jfoe3n8,12glkw4,t1_jfkx62k,"> The only thing that python has lacked, until recently, is decent ui options. There are various web or none web-based ones out there, but it feels like that is close to being solved.
+
+I saw several popular Gnome libraries written entirely in Python, also several webs are using Flask, FastAPi, MkDocs or LiteStar*
+
+I don't use Windows/MacOs/KDE so I'm not sure about them",2023-04-10 09:43:53,2,dzdhs,Saphyel
+jfkz0cp,12glkw4,t1_jfkx62k,Which module is the GUI solution now for python?,2023-04-09 15:49:11,6,9i8k071p,Classic_Department42
+jfkzct9,12glkw4,t1_jfkx62k,"There are some really good points here. I’d say the other was traction via computer science programs. In the US, in the early 90s, most comp sci curriculum was taught with Pascal. By the mid 90s, Pascal was viewed as an inferior language for teaching OO concepts, and there was some rub with Borland at the time too. At that time, CS departments shifted to where C++ would have been the language of the curriculum, but some did pick up Java early. By the late 90s, Java was the curriculum language for practically every CS department used.
+
+If CS professors had seen Python as the alternative to Pascal, we’d be having a different conversation.",2023-04-09 15:51:34,16,6csnaw5o,Material-Resource-19
+jfl7mcx,12glkw4,t1_jfkx62k,"In 2013 or so when the company needed some scientific computing power, I sampled a few options by creating and manipulating a 10GB matrix.
+
+Numpy did it effortlessly and none of other options could even handle it.",2023-04-09 16:48:06,9,5ej1ie,dudinax
+jfl3349,12glkw4,t1_jfkx62k,"> Matlab was rapidly gaining in popularity in 1994, esp for numeric programming:
+
+I feel like lots of the use of programming for these purposes was at university level where matlab was free for the users. In the past 15 years it seems like a lot of this type of programming has expanded far beyond universities and when people look for tools suddenly Matlab's cost was a barrier vs free python.",2023-04-09 16:17:03,29,8oej0,monstimal
+jfl6tds,12glkw4,t3_12glkw4,"Since I haven’t seen this touched on:
+
+Python, being interpreted, fit well early on in the scripting space.  However Perl already had a solid lock on the space in Unix/Linux.  But Perl was stagnating, and trying to do anything remotely complex in it made it difficult to maintain.
+
+Perl 6 became a disaster, and Linux distributions began to pick up, and use Python for many of their internal scripts and tools, because Python was just way more readable, and easier for newer devs to write in.  Which helped even more as those projects grew.",2023-04-09 16:42:46,36,4b12m,schplat
+jfl7ond,12glkw4,t1_jfl6tds,"I consider myself a fairly adaptable person with programming aptitude and i was going to learn perl once. After a few days with the camel book i was like screw perl this language was written by a madman.
+
+Even ASM made more sense to me then perl.",2023-04-09 16:48:33,14,5q7hwlqb,quts3
+jfkziqc,12glkw4,t3_12glkw4,"libraries are what makes Python so powerful, getting a ecosystem of developers and packages takes time",2023-04-09 15:52:42,39,v5tt4,Ruin369
+jfkuf90,12glkw4,t3_12glkw4,"Computers got really fucking fast and suddenly problems like man this took a lot of time to write starting becoming a larger concern. 
+
+2-3 transition was terrible. 
+
+Major companies use it new people started using it realzied it was fuckign awesome and kept using it. 
+
+I got absorbed into python from java after watching [david beazley's metaprogramming talk.](https://www.youtube.com/watch?v=sPiWg5jSoZI) Nothing has ever set my mind on fire quiet like that video did. Haven't put the language down since.",2023-04-09 15:16:45,175,13o7qq,turtle4499
+jfpgiir,12glkw4,t1_jfkuf90,">I got absorbed into python from java after watching david beazley's metaprogramming talk.
+
+That guy is going to hell.
+
+Thanks for sharing that.",2023-04-10 15:34:46,1,4a167g2,logarithmnblues
+jfllqmt,12glkw4,t1_jfkuf90,"Dude, learn how to not use run-on sentences.",2023-04-09 18:25:14,-13,79mmh,lavahot
+jfleedr,12glkw4,t1_jfkuf90,"Not only did computers get faster, programming switched from being bottlenecked by local compute speed to waiting on network resources. Intensive computations in python code get delegated to either C++ libraries or outside services today. Python filled the space for glue code when perl dropped the ball.",2023-04-09 17:34:22,35,44bsk,Megatron_McLargeHuge
+jfl2i8u,12glkw4,t1_jfkuf90,"> Computers got really fucking fast and suddenly problems like man this took a lot of time to write starting becoming a larger concern.
+
+This is, I think, the crux of why python got big through the aughts. Computers between the late 1990s and the late aughts got a whole hell of a lot faster so pythons performance problems mostly went away, and its ease and speed of development and deployment suddenly got to be a big factor.",2023-04-09 16:13:06,57,9qael,jet_heller
+jfl1iqd,12glkw4,t3_12glkw4,"Check how python was invented https://www.artima.com/articles/the-making-of-python - it was not meant for professional developers, but for people who need programming to help them in their professional tasks. That's probably why python has a long tradition in data science - one can argue it ended up on the backend by accident, because the community picked it up and created frameworks for it. To this day I think the spirit is preserved, check how PEPs get reviewed and sometimes rejected, there is always a great attention at keeping python accessible ; and as we know, it's balanced with more advanced features making it viable at enterprise level such as type annotations.
+
+Honestly we should be more asking why it survived, continues to thrive and evolve. See how many langages are invented every year https://en.wikipedia.org/wiki/Timeline_of_programming_languages . Most programming languages are meant to be forgotten, really.",2023-04-09 16:06:17,53,2rzmw,aikii
+jfkt513,12glkw4,t3_12glkw4,"Python was seen as an also ran scripting language, like Lua today. People looked at it and said it is not Perl",2023-04-09 15:07:30,230,mnd4j,drwebb
+jfp57e6,12glkw4,t1_jfkt513,"I looked at Python and said ""It's not Perl - GREAT!""",2023-04-10 14:16:17,1,mzeiy,Oerthling
+jfnf016,12glkw4,t1_jfkt513,">Python was seen as an also ran scripting language,
+
+This was me. Several people over the years told me they liked Python a lot more than Perl. But if already sunk years into Perl, and a scripting language was a scripting language. 
+
+Then I picked up a side gig that forced me to use Python. I never looked back.",2023-04-10 02:35:31,1,8looig91,RedbloodJarvey
+jflvtnk,12glkw4,t1_jfkt513,"I had exactly this discussion, oh almost 20 years ago, with a Perl enthusiast.",2023-04-09 19:37:18,2,4y0fyyrp,genuinemerit
+jfnajqa,12glkw4,t1_jfkt513,"I wouldn’t call Lua an also-ran as it is well established in certain niche applications like UIs, especially for video games.",2023-04-10 01:58:19,2,4e1oo3rx,DonkeyTron42
+jflca9h,12glkw4,t1_jfkt513,I was under the impression that Perl's issues between version compatibility ended up paving the way for Python to step in as the de-facto scripting language.,2023-04-09 17:20:12,3,3h4z3,Deto
+jfl2gi5,12glkw4,t1_jfkt513,"I had a hard time switching from perl to python at first because perl (without strict) was such a wild west of coding options. You could write just about anything and it would compile and run, meanwhile python would fail to run due to whitespace. It was a mental hurdle at first. I do miss data::dumper and the regex engine/syntax",2023-04-09 16:12:46,9,nwo4pxo,LittleMlem
+jfmaozt,12glkw4,t1_jfkt513,"> People looked at it and said it is not Perl
+
+Some of us saw that as a major benefit. I started using it around 1.5, and it changed my life by freeing me from the nightmare of trying to code stuff in Perl. 
+
+Never looked back after that moment.",2023-04-09 21:23:37,6,35xl4,thesolitaire
+jfkthju,12glkw4,t1_jfkt513,"I'm not familiar with Lua.  What do mean by ""also ran scripting language""?
+
+What caused people to give Python a second look?",2023-04-09 15:09:58,41,von3w6y2,TheBodyPolitic1
+jfkt974,12glkw4,t3_12glkw4,"Besides the lack of enterprise backing early on, have you seen python 1.x?.
+
+I remember I programmed some stuff not that early, but early, could have been 2005 or so. Numpy did not exist yet, it was ""numeric"" and it was quite rough, list comprenhensions did not exist, I think context managers did not exist...
+
+Python before 2.7 was a far cry from what came to be after 2.7. Also all initial 3.x versions were really buggy until 3.4-5 and then finally 3.6 landed.",2023-04-09 15:08:18,384,qcxnj,glacierre2
+jfmoyfx,12glkw4,t1_jfkt974,"What value do context managers really bring? It's just a way to run two functions without typing them yourself. Context manager is syntactic sugar at best. It's competent programming that makes sure the objects which can be used with context managers are easy to use. At the end of the day it's just an automated call of open and close.
+
+Same for list comprehensions. Those just make your code writing slightly more efficient, they don't provide power or paradigm shifts in the scope of usability.
+
+Do you mean that lists weren't mutable or some other facet of the language relating to those small conveniences?",2023-04-09 23:09:01,-8,14bnji,Panda_Mon
+jfmwt07,12glkw4,t1_jfkt974,"I used Python in 1999 to write some server side app stuff for managing a DNS environment.  Python was pretty slow back then.  Much slower than it is now.   I only used it because I could not stand Perl.  It was viewed as more of a toy language for a while, since it started out as an educational tool.  
+
+Also, during that time C++ was king and Java was the new kid on the block.  We were excited to use Java and things like RMI so we wouldn't have to use Corba and C++.   No one really believed the write-once run anywhere sales pitch.  Java was REAL slow when it first came out.  Memory was tighter back then so giant JVM sizes could take down a machine.  Took a while for Java to hit it's stride.  Once BEA came on the scene with Weblogic then stuff took off.  J2EE blew Java up big time.
+
+So, Python was not in anyone's minds at that time.  I was even seen as a weirdo for using it.  Took an act of god to get it installed on a BSD system at my place of employment at the time.",2023-04-10 00:09:28,10,1pco,clueelf
+jfl4udb,12glkw4,t1_jfkt974,"This comment. If we can see it's popularity, it was 2.7 that made people especially mathematicians and scientists go
+.. oh, wow.",2023-04-09 16:29:03,42,1047pi,AbdussamiT
+jfkwvp3,12glkw4,t1_jfkt974,Interesting comment!  Thank you.  So basically Python got a lot better with 2.7 and people took notice.,2023-04-09 15:34:08,31,von3w6y2,TheBodyPolitic1
+jfkzqme,12glkw4,t1_jfkt974,"I used python 0.6-0.8. Nothing like it is now. Tech support was emailing Guido Von Rossum with your questions. Seriously.
+
+It was similar to Perl, not as powerful but easier to read syntax.",2023-04-09 15:54:10,242,32dfj,thewileyone
+jfks7r6,12glkw4,t3_12glkw4,Java had this company called Sun marketing it.,2023-04-09 15:00:46,917,3484a,robvas
+jfnxolg,12glkw4,t1_jfks7r6,"We have to start calling Python as JavaPython, as JavaScript did it with LiveScript.",2023-04-10 05:48:28,1,tu4zyl8z,_massif_
+jfnvotv,12glkw4,t1_jfks7r6,"Java was incredibly popular because it filled a very important need at the time. Write once, run anywhere sounds quaint now but it was a really big deal then. It’s important to remember that Linux was a hobbyist OS at the time and it was hard to get most companies away from Microsoft products.",2023-04-10 05:23:14,1,5xges,atomly
+jfktbt2,12glkw4,t1_jfks7r6,"Fair point, but Python became popular and I can't recall ( correct me if I am wrong ) a company ever promoting Python, at least not as hard as Sun promoted Java.",2023-04-09 15:08:50,18,von3w6y2,TheBodyPolitic1
+jflq4yt,12glkw4,t1_jfks7r6,I'm wondering if Java started to loose popularity after it was bought out by Oracle in 2010-- who then filed a lawsuits against Java clones (Google's Android SDK).,2023-04-09 18:56:24,11,gcv69,roamn
+jfl01if,12glkw4,t1_jfks7r6,"To further this comment, Sun had a $500 million marketing campaign for Java.
+
+https://www.theregister.com/2003/06/09/sun_preps_500m_java_brand/",2023-04-09 15:56:17,368,cmsdp,Agent281
+jfr4m0w,12hj9oc,t3_12hj9oc,Thank you,2023-04-10 22:13:08,2,1d58hcx2,qmahmood
+jfr2hkz,12hj9oc,t3_12hj9oc,Thx mate <3,2023-04-10 21:57:52,2,zj582,Corbrum
+jfqzqlx,12hj9oc,t3_12hj9oc,Thanks,2023-04-10 21:38:38,2,4pynu,this_human
+jfqnn2l,12hj9oc,t3_12hj9oc,Thank you very much!! Really useful,2023-04-10 20:17:04,2,gclnula2,LongjumpingPhysics76
+jfqf9cs,12hj9oc,t3_12hj9oc,"Great, thank you!",2023-04-10 19:21:43,2,pfd4h,GreenFractal
+jfqf125,12hj9oc,t3_12hj9oc,"Thank you so much, I really wanted to learn more about APIs so this couldn't have come at a better time!",2023-04-10 19:20:13,2,4hv1urrf,arman7503
+jfqf5m3,12hj9oc,t1_jfqf125,You're welcome! Good luck!,2023-04-10 19:21:02,2,shnqm,MetonymyQT
+jfqekuq,12hj9oc,t3_12hj9oc,"Thank you for this, I’ve been learning Django for a lot time now but I’m seeing more and more job posts with fast api now so this is ideal, thanks!",2023-04-10 19:17:14,2,92hmndzs,DrMantisTabogon
+jfqf4je,12hj9oc,t1_jfqekuq,Hope it brings some value to you! Good luck!,2023-04-10 19:20:50,2,shnqm,MetonymyQT
+jfq8fzk,12hj9oc,t3_12hj9oc,Thanks!,2023-04-10 18:36:44,2,4vadl,derFunkatron
+jfq9g5q,12hj9oc,t1_jfq8fzk,You’re welcome!,2023-04-10 18:43:19,1,shnqm,MetonymyQT
+jfq5vq1,12hj9oc,t3_12hj9oc,Thank you!,2023-04-10 18:20:05,2,yxv5rye,wingwai
+jfq94bz,12hj9oc,t1_jfq5vq1,You’re welcome!,2023-04-10 18:41:10,1,shnqm,MetonymyQT
+jfq5upk,12hj9oc,t3_12hj9oc,Thank you. I recently started a project in fast API having done most of my projects in Django. Will check it out!,2023-04-10 18:19:53,2,2s83fouj,milanster
+jfq9304,12hj9oc,t1_jfq5upk,You’re welcome! Good luck with your project!,2023-04-10 18:40:55,2,shnqm,MetonymyQT
+jfq5e5i,12hj9oc,t3_12hj9oc,Thanks a lot!,2023-04-10 18:16:55,2,u8j9r9ui,ptrck-star
+jfq90pc,12hj9oc,t1_jfq5e5i,You’re welcome!,2023-04-10 18:40:30,1,shnqm,MetonymyQT
+jfq4xmj,12hj9oc,t3_12hj9oc,Thanks a lot,2023-04-10 18:13:54,2,jwqae,nelsinho527
+jfq8zqk,12hj9oc,t1_jfq4xmj,You’re welcome!,2023-04-10 18:40:19,1,shnqm,MetonymyQT
+jfpyog8,12hj9oc,t3_12hj9oc,Thank you!,2023-04-10 17:33:36,2,vgedvkkr,hhhx33
+jfq0ae7,12hj9oc,t1_jfpyog8,You’re welcome!,2023-04-10 17:43:56,2,shnqm,MetonymyQT
+jfpogs4,12hj9oc,t3_12hj9oc,Thank you!!,2023-04-10 16:27:35,2,lxgxc,23sanddungarees
+jfpvtfc,12hj9oc,t1_jfpogs4,You're welcome! :D,2023-04-10 17:15:20,1,shnqm,MetonymyQT
+jfpk4ds,12hj9oc,t3_12hj9oc,[deleted],2023-04-10 15:58:44,2,deleted,deleted
+jfpknec,12hj9oc,t1_jfpk4ds,Good luck!,2023-04-10 16:02:13,1,shnqm,MetonymyQT
+jfpghib,12hj9oc,t3_12hj9oc,"Thanks. U have docker thats nice, others as i saw dont, thats a plus",2023-04-10 15:34:34,3,603k4mp1c,Numerous-Stomach-NEW
+jfpi2j8,12hj9oc,t1_jfpghib,"Yes, unfortunately it is just basic docker commands to get you started.",2023-04-10 15:45:05,2,shnqm,MetonymyQT
+jfpv7lf,12hj9oc,t3_12hj9oc,Awesome! This is exactly the training I need for an application I’m building. Thank you.,2023-04-10 17:11:25,5,v98q7m1n,bryangoodrich
+jfpvwr3,12hj9oc,t1_jfpv7lf,"Hope it works out for you, good luck!",2023-04-10 17:15:55,2,shnqm,MetonymyQT
+jfpcj4t,12hj9oc,t3_12hj9oc,Thank you!,2023-04-10 15:07:38,5,54akr,Syrup382
+jfpck9f,12hj9oc,t1_jfpcj4t,">Thank you!
+
+You're welcome!",2023-04-10 15:07:52,1,ko79fwmf,exclaim_bot
+jfpi3jp,12hj9oc,t1_jfpcj4t,You're welcome! :D,2023-04-10 15:45:16,2,shnqm,MetonymyQT
+jfpnjjx,12hj9oc,t3_12hj9oc,"Thank you very much for the course 
+May I ask how much has your course made for you? 
+
+As a programmer, I need new ways to sustain myself. Do you believe blogging and making courses, all the hype aside, are financially worthwhile?",2023-04-10 16:21:27,6,7vsprfh1,ChallengeEffective90
+jfpvsij,12hj9oc,t1_jfpnjjx,"You're welcome! I hope it provides you with some value. 
+
+I've been blogging since 2018 and it made me a total of 5$ (\~3$ after tax, someone bought me a coffee since I shared some HackTheBox solutions on my blog).
+
+The course income depends on your course rating, topic and how many sales you can generate. If you refer people to the course you'll get 97% of the course price, if Udemy promotes the course and makes a sale you'll get 30%. For the FastAPI topic, the median monthly revenue is 100$ and top revenue is 1700$. I've made around double the median and I'm expecting the revenue to drop since last ratings I received weren't that good. 
+
+As a software developer my biggest income is from my salary, I couldn't sustain myself based on the course alone, but at least I covered my WP blog hosting fees.",2023-04-10 17:15:10,37,shnqm,MetonymyQT
+jfpkzkg,12hj9oc,t3_12hj9oc,Thank you very much. Very generous of you.,2023-04-10 16:04:26,10,j1ymcyx8,realdealishere1
+jfpl35k,12hj9oc,t1_jfpkzkg,You're welcome! I hope it provides you with some value.,2023-04-10 16:05:06,6,shnqm,MetonymyQT
+jfp51u1,12hj9oc,t3_12hj9oc,Thank you 👍,2023-04-10 14:15:10,24,p4oxcufl,You_Wen_AzzHu
+jfpi397,12hj9oc,t1_jfp51u1,You're welcome! :D,2023-04-10 15:45:13,13,shnqm,MetonymyQT
+jfeodok,12egsoz,t3_12egsoz,Nice job I always love fun projects like these.,2023-04-08 04:10:45,2,8q3vvjn6,Striking-Courage-182
+jff8pnc,12egsoz,t1_jfeodok,Right! This is definitely not going on my resume but man it is fun to work on.,2023-04-08 08:29:28,1,rs4dqilj,2broke2code
+jfehz2c,12egsoz,t3_12egsoz,"Cool project, but as a heads up, you should update your private key and purge creds.json from your repo. I’m able to see your creds.json in your git history with your committed delete.",2023-04-08 03:09:54,2,xbhxt,Underachiever457
+jff8t26,12egsoz,t1_jfehz2c,Yeah true. They're not useful anymore but I have to look into how to delete them in my commits.,2023-04-08 08:30:51,1,rs4dqilj,2broke2code
+jfedusk,12egsoz,t3_12egsoz,"“Don't worry. You aren't even interesting enough to look like Michael Cera. If I saw you on the street I would never even remember you. Nobody would.”
+
+I am going to go lie down for awhile.",2023-04-08 02:33:30,2,swxarhm6,toomuchmucil
+jfdrd5f,12egsoz,t3_12egsoz,[I shouldn’t have been curious..](https://imgur.com/a/JqLMcdi),2023-04-07 23:29:16,2,lwfzjlnr,PokeReserves
+jfds8nn,12egsoz,t1_jfdrd5f,C'mon you ain't gonna show us the photo?,2023-04-07 23:36:07,3,rs4dqilj,2broke2code
+jfd9dxi,12egsoz,t3_12egsoz,"This is dope! I think it would be cool if it showed you who your lookalike was. Would add a bit of extra fun, and I'm sure it would be minimal additional code to display it on the front end.",2023-04-07 21:16:24,2,1ci4rpj5,Lewis0981
+jfda1su,12egsoz,t1_jfd9dxi,"I did have it my first phase. It was so much fun to see how much you resemble someone else (ex- like having the exact same nose or eyes) 
+
+I think I'll bring that option back up tmmrw.",2023-04-07 21:21:05,2,rs4dqilj,2broke2code
+jfd5k45,12egsoz,t3_12egsoz,It just said my post was removed?,2023-04-07 20:49:38,2,3tlp0,philoponeria
+jfdhx6a,12egsoz,t1_jfd5k45,After days of cleaning the data it still pulls those up. Sorry about that. Do try again with a different angle maybe.,2023-04-07 22:17:36,1,rs4dqilj,2broke2code
+jfcexw8,12egsoz,t3_12egsoz,yeesh this bot racist,2023-04-07 17:47:50,9,jozy285b,DigThatData
+jfcxe25,12egsoz,t1_jfcexw8,Lol come here looking for this 😂,2023-04-07 19:53:01,2,6gy5zl37,zabumafew
+jfcw0by,12egsoz,t1_jfcexw8,"Garbage in, garbage out",2023-04-07 19:43:27,16,crpi7efu,_ologies
+jfcvbqr,12egsoz,t1_jfcexw8,It's almost a given with that subreddit data 😅,2023-04-07 19:38:43,14,rs4dqilj,2broke2code
+jfdp70c,12egsoz,t3_12egsoz,"Great idea. Seriously, jealous of the idea.
+
+Execution seems to fall short in the examples I tried. Fairly random insults that seemed to be about features that were in an image that ""matched"" but the feature in question wasn't present (I got ""roasted"" about being homeless and my eyebrows on one image but it didn't make a ton of sense). In another image, the rules of the roastme forum were the response.
+
+I recommend you look at the problems and keep going! Try and better sub-divide/match the features of an image to the features of a roast post and this will be incredible. Very high level and fuzzy right now.",2023-04-07 23:12:23,3,j20so,marr75
+jfdr25e,12egsoz,t1_jfdp70c,"Yeah the match image only works locally for me. it's some minor issue with the file paths I passed. I'll fix it soon.
+
+Also I've had the idea for a year but just got around to doing it lol and yes it needs a lot of work. 
+
+As for the sub-divide, it's literally what I have planned for it. I'll breakdown the image into multiple features like predicted gender, colour, age, etc... and feed them into an LLM that would use the features to generate a more personalized roast rather than just spitting out existing comments.",2023-04-07 23:26:53,3,rs4dqilj,2broke2code
+jfd0xc7,12egsoz,t3_12egsoz,I’m getting a “service unavailable” response so it’s for sure broken lol,2023-04-07 20:17:32,3,hsilu,Oinohtna
+jfedku9,12egsoz,t3_12egsoz,"`__pycache__` in repo is sign of a newbie. Put it in your .gitignore 
+
+I love the project though. Good job.",2023-04-08 02:31:04,4,8umjm3t,AGI_69
+jfawzgo,12egsoz,t3_12egsoz,"If you're following all the hipster trends, are you really a hipster?
+
+You look like you tut & roll your eyes at every mention of anything that happened after 2006.
+
+Flannel shirt, facial hair, and a barely visible chest tattoo. You're a spitting image of your mother.
+
+We know that getting kicked out of The National wasn't easy for you, but can you please take your job at the coat check fucking seriously?",2023-04-07 10:56:39,19,3miavl2n,Noshoesded
+jfbmtqj,12egsoz,t3_12egsoz,Well done,2023-04-07 14:42:19,6,aqtox4zh,Similar-Olive-8666
+jfc2we3,12egsoz,t1_jfbmtqj,Thank you,2023-04-07 16:29:23,5,rs4dqilj,2broke2code
+jfde9sg,12egsoz,t3_12egsoz,"""I'd say bad fashion runs in your family but I doubt anyone runs in your family"" 😂😂😂😭😭😭",2023-04-07 21:51:13,13,6yrj5,Aknnja
+jfdhpcy,12egsoz,t1_jfde9sg,Ooof...,2023-04-07 22:16:00,3,rs4dqilj,2broke2code
+jfawjdy,12egsoz,t3_12egsoz,"Looks like the barber already did
+
+I wondered what DJ Qualls' ""Before Meth"" pic looked like.
+
+Is Lloyd Christmas your father? 
+
+You look like you pick up children from the park, violate them and then go and brag about it to your grandma.'",2023-04-07 10:51:07,20,7uv3rhpg,Xelaxander
+jfby7pk,12egsoz,t1_jfawjdy,How appropriate. You fight like a cow!,2023-04-07 15:58:36,10,uhs1e,aughlord
+jfdekwv,12egsoz,t3_12egsoz,"Good project idea. Btw, if you arnt aware by now you should look into vector databases. I like Qdrant. It will allow you to **dramatically** decrease the time it takes to find nearest neighbor embeddings and scale the project. Also, then you don't have to commit a gigantic csv.",2023-04-07 21:53:24,10,zie7k,pawsibility
+jfdhocw,12egsoz,t1_jfdekwv,Definitely looking into this. Majority of the time it takes actually goes to extracting the facial embeddings of the user from the image and it only takes a fraction of the time to traverse the csv.,2023-04-07 22:15:48,6,rs4dqilj,2broke2code
+jfcvugk,12egsoz,t3_12egsoz,I love the idea that you used a subreddit as a training dataset,2023-04-07 19:42:19,16,crpi7efu,_ologies
+jfcw635,12egsoz,t1_jfcvugk,The subreddit is huge and I only scrapped like <10% of it tbh,2023-04-07 19:44:33,9,rs4dqilj,2broke2code
+jfc7270,12egsoz,t3_12egsoz,"One thing that annoyed me a bit was the waiting message ""almost done"". This took a bit of time for me and seeing the ""almost done"" message pop up again and again didn't reassure me that the process was actually ""almost done"".",2023-04-07 16:56:15,18,jzofmhqk,DangerDinks
+jfc7r41,12egsoz,t1_jfc7270,"Yeah I'm on your side there. It's just a loop for now since there isn't a way for me to communicate with the backend asynchronously without complicating things in my Ajax request. (Gonna brush it off to me being a noob).
+
+I'll look into this now that you've mentioned it.",2023-04-07 17:00:40,12,rs4dqilj,2broke2code
+jfcvsyu,12egsoz,t3_12egsoz,"Given that you have a .gitignore, is there a reason you committed your __pycache__?",2023-04-07 19:42:02,27,crpi7efu,_ologies
+jfcvxgl,12egsoz,t1_jfcvsyu,Noob move. It's full of bugs too ngl.,2023-04-07 19:42:54,27,rs4dqilj,2broke2code
+jfcf3ip,12egsoz,t3_12egsoz,I think we killed it.,2023-04-07 17:48:51,29,u1ac,Smallpaul
+jfcv9ci,12egsoz,t1_jfcf3ip,It's barely holding out...,2023-04-07 19:38:15,13,rs4dqilj,2broke2code
+jfbqotg,12egsoz,t3_12egsoz,"I am honestly insanely impressed, it has more variety than the actual roastme subreddit. Actual roastme only has two basic responses. If a woman ""you have daddy issues and you have lots of sex because of it."" If a man ""You are not attractive and you do not have sex because of it"".",2023-04-07 15:08:48,85,5whack6k,RubberOmnissiah
+jfdavl9,12egsoz,t1_jfbqotg,AI replacing human roasters became a reality.,2023-04-07 21:26:54,1,bz5bd6ry,QultrosSanhattan
+jfcsv6q,12egsoz,t1_jfbqotg,"What happens if you're non-binary?  ""Your dad is ugly and you have the perfect amount of sex?""",2023-04-07 19:21:52,15,5u8r6929,SnooKiwis7862
+jfcgffr,12egsoz,t1_jfbqotg,Wait you got it to recognise images?,2023-04-07 17:57:35,15,5e99kkv7,truerandom_Dude
+jfc1x10,12egsoz,t1_jfbqotg,That is so true. Thanks a lot for the support fam. It took a lotta training.,2023-04-07 16:22:58,26,rs4dqilj,2broke2code
+jfb3xh6,12egsoz,t3_12egsoz,"Cool project. Nicely done!
+A small suggestion - don’t leave blank except statements - it is not considered a good practice for a number of reasons.",2023-04-07 12:11:45,216,d4yq7,iVend3ta
+jffvmnt,12egsoz,t1_jfb3xh6,What do mean by blank except statements? What would be the proper way to do it?,2023-04-08 13:10:14,1,n3wts,MrMxylptlyk
+jfb49g9,12egsoz,t1_jfb3xh6,Thank you for the feedback. May I ask how you were able to tell there were blank except statements? (Did you see it in the frontend by chance?),2023-04-07 12:15:02,30,rs4dqilj,2broke2code
+jfbw37w,12egsoz,t1_jfb3xh6,This guy is a dev responsible for other devs.,2023-04-07 15:44:49,164,9hmoru2,Dasshteek
+jfs3lng,12ffsif,t3_12ffsif,"Predictions
+
+1) soon people will realize that concurrent programming is hard, in particular when you want to share state. 
+
+2) the Pythonic way of concurrency will remain non-shared state parallelism, which is the same as multiprocessing, whatever yoi csll it.
+
+3) you can't eat the GIL. What I mean is having multiple locks to coordinate makes things more difficult, not less.
+
+4) The Python core team keeps acting against the interest of the language. We'll need a new BDFL.",2023-04-11 02:35:16,1,77znkc6x,Grouchy-Friend4235
+jfix6cm,12ffsif,t3_12ffsif,"I believe this should significantly increase the performance of webframeworks that utilise multi workers ? Like gunicorn and unicorn to say the least? 
+
+If that's so , I am hoping this can actually make python a pretty good and efficient player in terms of building webservices?",2023-04-09 02:46:38,0,1fhi5drl,kawaiibeans101
+jfs2mr0,12ffsif,t1_jfix6cm,"It already is.
+
+Also this is not a magic pill. It solves aesthetics more than it solves an actual problem.",2023-04-11 02:27:35,2,77znkc6x,Grouchy-Friend4235
+jffdkfr,12ffsif,t3_12ffsif,Remember _perl 6_?,2023-04-08 09:41:50,-7,1t8cx39u,gladiatr72
+jfh5s47,12ffsif,t1_jffdkfr,This change doesn't affect pure Python code and is opt-in for C extensions...,2023-04-08 18:38:50,5,ajq6m,zurtex
+jffg6u9,12ffsif,t1_jffdkfr,I don't understand...,2023-04-08 10:20:24,22,afynq0tv,Helpful_Arachnid8966
+jfgqc92,12ffsif,t3_12ffsif,So does this take python a step in the direction of concurrency? running multiple processes in parallel?,2023-04-08 16:54:11,3,8wlcbbhb,Nfl_Notabot
+jfh5h7b,12ffsif,t1_jfgqc92,Python is already capable of concurrency.  Concurrent doesn't necessarily mean parallel. It is also capable of multi-processing in parallel.  The limitation imposed by the GIL is that only one thread can be executed at a time.,2023-04-08 18:36:39,8,6ttpm,crankerson
+jfgppv9,12ffsif,t3_12ffsif,Should we rename it to the IL now?,2023-04-08 16:50:00,3,3z25x,javajunkie314
+jfh51so,12ffsif,t1_jfgppv9,"People have used the name ""Local Interpreter Lock""",2023-04-08 18:33:46,4,ajq6m,zurtex
+jffbjpu,12ffsif,t3_12ffsif,Finally... after decades!!!,2023-04-08 09:11:31,3,6clby1yj,AnonymouX47
+jfg357l,12ffsif,t3_12ffsif,I'm worried that this might pause the move to remove the gil entirely. I was hoping 3.12 or at least 3.13 wouldn't have a gil,2023-04-08 14:12:08,8,44f90,jyper
+jfhogkr,12ffsif,t1_jfg357l,I'm pretty sure the GIL is something that is staying for the life of Python 3. I also think it's one of the only changes big enough to warrant a Python 4.,2023-04-08 20:52:45,1,uc1l344z,1668553684
+jfjnqw6,12ffsif,t1_jfg357l,"Removing the GIL is undesirable anyway, and a total red herring from the actual problem the actual issues that people actually have with multithreading. So that's actually a good thing.",2023-04-09 07:28:11,0,cghx1,lieryan
+jfg6ipp,12ffsif,t1_jfg357l,"No Gil is never going to come to Python 3 ever. 
+
+It AT BEST would come in Python 4. It’s a dramatically breaking change. And would cause a major disruption in the language.",2023-04-08 14:36:54,12,13o7qq,turtle4499
+jfgkhdx,12ffsif,t1_jfg357l,"It was never going to land in 3.12, it is way too big a change in terms of impact on the ecosystem. The per interpreter gil work has been going on since 2014 as per the pep. I expect a similar timeframe for the nogil work.
+
+However, the per gil work had to address some serious technical debt in cpython like widespread usage of global variables that will simplify any future work on parallelism, including nogil.",2023-04-08 16:13:47,16,bfc17,rouille
+jfh0rs3,12ffsif,t3_12ffsif,"So we can do actors and goroutines now, right? Right?",2023-04-08 18:06:23,4,13oxcl,ambidextrousalpaca
+jfhkg4g,12ffsif,t1_jfh0rs3,"You can already do that with asyncio. I guess you mean with parallelism?
+
+Would be interesting to do something like aiomultiprocess with multiple interpreters.",2023-04-08 20:23:15,7,bfc17,rouille
+jffmz3j,12ffsif,t3_12ffsif,"We’ve always had a per interpreter GIL. maybe just a bad headline here?
+
+Edit. Decided to RFTA. This is talking about multiple interpreters in the same process which they say “ The C-API for multiple interpreters has been used for many years. However, until relatively recently the feature wasn’t widely known, nor extensively used (with the exception of mod_wsgi).”
+
+So maybe a good idea and more things can start using it.",2023-04-08 11:45:58,65,ze0qhs2,ConfidentFlorida
+jffqf4s,12ffsif,t1_jffmz3j,Does this mean we could have some sort of userland shared memory between interpreters ? That would simplify a lot of stuff,2023-04-08 12:21:29,10,a73hg,staticcast
+jfg8hgz,12ffsif,t1_jffmz3j,"I believe not, what I understand is that there were always sub-interpreters inside C-api, but they share the same GIL with the Main interpreter.
+The way to work with multiple cores in Python now (3.11) is by using multiprocessing, which opens a new python interpreter (new process no new thread). With PEP 684, the use of multiple cores will be possible with one interpreter.",2023-04-08 14:50:48,40,6c6jytyj,patch-jh
+jffztus,12ffsif,t3_12ffsif,"I don't quite understand how multiple interpreters in one process is different from other flavors of parallelism. It's essentially how I used to think of threads, but I guess I was oversimplifying?
+
+With the interpreters more isolated, and global state duplicated to each, how is this different, in effect, from multi-process parallelism?",2023-04-08 13:45:50,15,9k3f3,FrickinLazerBeams
+jfs1jix,12ffsif,t1_jffztus,It isn't but it takes a CS degree to appreciate that.,2023-04-11 02:18:55,0,77znkc6x,Grouchy-Friend4235
+jfg3v16,12ffsif,t1_jffztus,"1. on Windows (which unfortunately a lot of people use), processes (and threads for that matter) are really expensive
+2. with multiple interpreters in one process, you only need C code to *share objects* between interpreters.
+    * with a single interpreter, you need to write your *entire algorithm* in C to take advantage of parellelism
+    * with multiple processes, allocating shared memory is really expensive and most synchronization APIs are not available and/or are very slow, and it's not always predictable what might need to be shared. With threads it's all in one address space.",2023-04-08 14:17:38,5,fjay8,o11c
+jfhdttj,12ffsif,t1_jffztus,"I see the main advantage for mixed C(++)/Python projects.
+C++ code can be thread-safe (if using mutexes), so it can be used to share state across the interpreters.
+Previously, doing the same thing across processes was massively more complicated -- all shared data needed to be allocated in shared memory sections, which means simple C++ types like `std::string` couldn't be used. Also the normal C++ `std::mutex` can't synchronize across different processes.
+
+So effectively, if you had an existing thread-safe C++ library and wanted to use it concurrently from multiple Python threads, you were forced to choose between:
+
+1) run everything in one process, with the GIL massively limiting the possible concurrency
+
+2) Use multiprocessing run a separate copy of the C++ library in each process. This multiplies our memory consumption (for us, that's often ~15GB) with the number of cores (so keeping a modern CPU busy would take 480GB of RAM)
+
+3) Essentially re-write the C++ library to use custom allocators and custom locks everywhere, so that it can place the 15 GB data in shared memory.
+
+Now with Python 3.12 with GIL-per-subinterpreter, I think we'll finally be able to use all CPU cores concurrently without massively increasing our memory usage or C++ code complexity.",2023-04-08 19:34:08,3,a98vj,kniy
+jfg3g0f,12ffsif,t1_jffztus,"At the operating system level there is extra overhead for sending data between processes, for locking between processes and for task switching into different processes.
+
+In my experience, threads are more consistent across operating systems. There are three different multiprocess spawn methods which have varying support across platforms.
+
+I also think there might some day be a way for the interpreters to intelligently share immutable data.",2023-04-08 14:14:26,17,u1ac,Smallpaul
+jfgw825,12ffsif,t3_12ffsif,"Great!  This is a step towards the threading model that Perl introduced experimentally in 5.6.0 (2000) and [supported in 5.8.0](https://perldoc.perl.org/threads#DESCRIPTION) (2002).  Since switching to Python \~7 years ago, I have wondered why Python did not have a similar threading model.
+
+The highlights of perl threading are:
+
+* One interpreter per thread
+* No user objects are shared by default
+* ... but you can mark *specific* user objects as ""shared"" which makes them accessible between threads
+
+Seems like the next big missing piece for Python having a useful threading model is that third bullet.",2023-04-08 17:34:47,37,yfwwj,ReverseBrindle
+jfiwe84,12ffsif,t1_jfgw825,How is this any different than multiprocessing?,2023-04-09 02:40:08,2,4t2z146k,kkirchhoff
+jfh5h1m,12ffsif,t1_jfgw825,"> ... but you can mark specific user objects as ""shared"" which makes them accessible between threads
+
+I don't believe there is any support for this yet, and there would probably need to be some sort of API to be able to mark something as safe to do this with.",2023-04-08 18:36:37,4,ajq6m,zurtex
+jff8ky3,12ffsif,t3_12ffsif,"A [link to the pep itself](https://peps.python.org/pep-0684/) (which hasn't been updated to accept status yet). Very cool news, can't wait to see what the future entails!
+
+....and I dropped a P in the title. 🤦🏻‍♂️",2023-04-08 08:27:28,106,3gad9,midnitte
+jfhpqw8,12ffsif,t1_jff8ky3,Environmental puzzles in my python?,2023-04-08 21:02:09,1,6wm08u8,huantian
+jfg2why,12ffsif,t1_jff8ky3,This is the python community. You are supposed to ADD a P to everything.,2023-04-08 14:10:17,19,u1ac,Smallpaul
+jffotfn,12ffsif,t1_jff8ky3,">....and I dropped a P in the title. 🤦🏻‍♂️
+
+It's amazing how many times I re-read the title before I found the missing P",2023-04-08 12:05:31,52,2keby,IlliterateJedi
+jfjvrv0,12fzdu2,t3_12fzdu2,"Just to let you know, geddit is a linux utility already (text editor), so you might want to change the repo name. Also should probably do a search before naming your repos lol.
+
+Cool project",2023-04-09 09:22:32,1,oo092,FruscianteDebutante
+jfk17kw,12fzdu2,t1_jfjvrv0,">geddit is a linux utility already (text editor)
+
+The text editor is actually [gedit](https://wiki.gnome.org/Apps/Gedit) not geddit, but close enough.",2023-04-09 10:42:19,11,13kp2p,ThroawayPartyer
+jfixj9o,12fzdu2,t3_12fzdu2,"I once commented on a post a year ago. And now I can't find it.bcs of how deep it is in. Are you gonna add that ""and comment"" back? It seems great by the way.",2023-04-09 02:49:40,3,f0ljqj2j,Anonymo2786
+jfjj0fx,12fzdu2,t3_12fzdu2,"Oh gods, that title made me think that my saved posts were public. So glad my weird mix of engineering and smut isn’t visible :|",2023-04-09 06:26:12,10,4bsjwtj,grokkingStuff
+jfjvvav,12fzdu2,t1_jfjj0fx,Why do yall not compartmentalize that? How could you even scroll on your main account with that shit lmao,2023-04-09 09:23:54,8,oo092,FruscianteDebutante
+jfj9mnw,12fzdu2,t3_12fzdu2,"i just learnt recently we can only access the last 1000 saved post on Reddit.
+
+
+https://news.ycombinator.com/item?id=17647915",2023-04-09 04:41:41,26,banwy,saintshing
+jfkvlgq,12fzdu2,t1_jfj9mnw,Rough.,2023-04-09 15:25:02,1,4pkm1,Incruentus
+jflgkks,12fzdu2,t1_jfj9mnw,The GitHub page actually specifically says it can save over 1000 items...maybe there is a workaround?,2023-04-09 17:49:00,2,3tpqo,mgrandi
+jfipzm8,12fzdu2,t3_12fzdu2,*saves post*,2023-04-09 01:45:42,94,fj93m,cryptoplasm
+jfj1drj,12fzdu2,t1_jfipzm8,[removed],2023-04-09 03:23:29,9,deleted,deleted
+jfjelpc,12f3glm,t3_12f3glm,"I am neutral on this.
+
+1. It will probably help with things like Codon which are aiming to increase speed 10x+ instead of 10%
+
+2. It will help with companies that have relatively large codebases, and once you get to a million lines or so, manageability without types is a pain.
+
+3. It will make reading code for true beginners harder. Also, all the people using chatGPT for code cleaning are going to feel left out.",2023-04-09 05:33:14,1,o4ucl8iz,julysanta
+jfhz2tw,12f3glm,t3_12f3glm,"I never understood the use of generics until using Go, which has a very similar syntax to this",2023-04-08 22:12:00,1,5kele,Rebeljah
+jfh48s6,12f3glm,t3_12f3glm,Oh this is awesome,2023-04-08 18:28:21,1,567uwsyz,someotherstufforhmm
+jfgbyse,12f3glm,t3_12f3glm,"I never never really understood the typing backporting - say that this is implemented in python 3.12, can it be used in earlier version with something like `from __future__ import annotations`?",2023-04-08 15:15:49,1,s9gvb4bm,Thing1_Thing2_Thing
+jfgn317,12f3glm,t1_jfgbyse,New syntax can not be used at runtime on an older version. The new generic syntax is not inside the annotation so will not be back ported. Often new typing features don’t involve syntax changes making back porting possible. This pep you will mostly need to wait for 3.12 to use.,2023-04-08 16:31:55,3,nemgl,Mehdi2277
+jfg8kqk,12f3glm,t3_12f3glm,"Ooh, I like!",2023-04-08 14:51:29,1,11kgfj,pbecotte
+jffm8dk,12f3glm,t3_12f3glm,Wonder when we can define types without having to import from typing,2023-04-08 11:37:50,1,4caar,twigboy
+jffz3l8,12f3glm,t1_jffm8dk,It really should never have been different syntax from declaring classes. Defining a class literally creates a new type. This direction python is going with types is bonkers.,2023-04-08 13:39:48,1,sriybt2c,Ok-Maybe-2388
+jffny0j,12f3glm,t3_12f3glm,"Yes but will the file extensions end in "".typy""?",2023-04-08 11:56:19,1,9ljvg,nirvanna94
+jff9ivl,12f3glm,t3_12f3glm,"Python has been in existence for decades, it's performance is nothing to write home about, the GIL has been in the way of parallelism ever since... but all so many are worried about is declaring types in a dynamically typed language.
+
+Just the number of PEPs on typing in recent times compared to those on other topics tells a lot about the current python ecosystem.
+
+To be sincere, this whole typing madness sickens me all the time.
+
+EDIT: PEP 684 also got accepted, but I don't see as much enthusiasm about that.",2023-04-08 08:41:22,1,6clby1yj,AnonymouX47
+jffyrt5,12f3glm,t1_jff9ivl,"Yep. Why people care *so much* about types when you can so easily violate any type promises you made is baffling 
+
+Until python itself uses these type hints for performance gains (which likely implies these would be cases where there's no way for the type hints to be wrong, e.g you can't add new attributes to a class if they aren't already defined), I won't find any utility in them.",2023-04-08 13:37:07,1,sriybt2c,Ok-Maybe-2388
+jffcs6k,12f3glm,t1_jff9ivl,"Guido is the one who started this with PEP 484. All this is is a continuation of work that the original author of Python believed was beneficial to the language.
+
+It’s funny you mention performance and the GIL when there has been real progress in these areas currently. 3.11 is 10-60% faster than 3.10. And Sam Gross, who successfully removed the GIL in a fork of 3.9 with no significant loss of speed, recently authored PEP 703 which proposes the ability to build CPython 3.12 without the GIL.",2023-04-08 09:30:07,5,7is2d,fiddle_n
+jffqx6f,12f3glm,t1_jff9ivl,"> Just the number of PEPs on typing in recent times compared to those on other topics tells a lot about the current python ecosystem.
+
+Yeah, a huge amount of effort has gone into Typed Python - a quick count shows 28 accepted PEPs relating to typing, a total of 93,000 words. That's twice as long as the reference manual for the entirety of [Lua](https://lua.org/manual/5.4/) and two-and-a-half times as long as the spec for [Golang](https://golang.org/ref/spec).
+
+And what do we have to show for it? The type system isn't great compared to Type[d Java]Script, and of course it brings none of the advantages (e.g. performance, AOT compilation) of a proper statically-typed language.",2023-04-08 12:26:36,4,cesqn,bakery2k
+jfekdpf,12f3glm,t3_12f3glm,"Nice! 
+
+Now fix `Callable` with pep 677 (or something like it).",2023-04-08 03:32:12,2,akqf8,nebbly
+jfeb519,12f3glm,t3_12f3glm,Nice! Now they need to accept the new syntax for Callable's :s,2023-04-08 02:10:17,4,1ihi9dzo,ianliu88
+jfes1jp,12f3glm,t3_12f3glm,"Given the enthusiastic tone of the comments, I am going with a potentially controversial comment but I am not trying to gaslight, I'm sincerely interested in learning more about this.
+
+I get the point of the PEP but I am genuine concerned about the overall trend of the typing. To me, it adds mostly syntactic sugar (it is as strictly required as a docstring, at least for now) at the cost of reducing considerably readability and conciseness, both of which are staples of Python and always cited among the reasons of its success.
+
+If typing is really that useful, then why roleplaying typed languages instead of going all the way through?
+
+One potential advantage I see is that typing can be a way to embed some sort of online testing in the code that even a linter might do. However, it can't replace actual testing, so... A glorified guideline?
+
+I am trying to use it in my daily coding yet here I am, questioning its very existence.
+
+Feel free to bash me, but while doing so please throw in as much information as possible",2023-04-08 04:49:38,17,24q6v1b1,catorchid
+jfhwoav,12f3glm,t1_jfes1jp,"From just the contents of your comment, it sounds like you've never used a type checker/validator?
+
+How would your perspective change knowing that every commit or pull request, you must pass type validation?",2023-04-08 21:53:41,1,j08pz,diamondketo
+jfezwj5,12f3glm,t1_jfes1jp,"When I started learning python, one of the main selling points was its brutal, unparalleled simplicity. There was no need to declare variables or their types. If it quacks like a duck and walks like a duck, they it’s probably a duck and treat it like a duck. I am 100% with you. I don’t understand this typing furor. It feels unaligned with python’s core design principles.",2023-04-08 06:25:56,3,rl7lahl,jabellcu
+jffca83,12f3glm,t1_jfes1jp,"A long time ago we had the concept of literate programming. Python types are a good example of this, they lead to self-documenting code, with the bonus that they are formalised enough to help linters and editors give feedback to the coder. You hint at that in your comment. It is only a potential advantage to you because you are not using it. To me, it is real advantage. 
+
+I taught myself oCaml a while back to get the hang of a functional language. The functional aspect of it was a bit hohum ... lots of recursion to avoid state, and then trust in the compiler to render the recursion as iterative code. But algebraic typing was just amazing. Python will never really be very good at typing, but what we're getting a big help if you try it.",2023-04-08 09:22:36,2,e6szh,timrichardson
+jffc6ht,12f3glm,t1_jfes1jp,"What is your current background and for what purpose do you use Python? The answer to that determines whether you are a group that would benefit from the type hinting feature, or somebody who doesn’t really need it.",2023-04-08 09:21:05,2,7is2d,fiddle_n
+jfgbn3m,12f3glm,t1_jfes1jp,"Since it was not built into the language from day 1 adding it would be a compatibility break. Additionally, forcing it hurts python as a scripting language, I for one don’t need types on a 60 line ETL with pandas. 
+
+I used to be a maintainer for a 200 kloc python codebase. It was well over a decade old and developed by dozens of people across about a dozen companies. A project of that scale needs to very explicitly declare interfaces otherwise it becomes nearly impossible to reason about the codebase. Specifically, having well specified return types means that forgetting to handle None-returns is not an issue anymore. 
+
+The overhead of reading generic syntax, like “this function takes an iterator of T and a function that takes T and returns U, returning an iterator of U”, is nothing compared to trying to figure that out from reading the function or explaining it in a doc comment. The first few times you see it it does take a bit longer, but that goes away. 
+
+Python will likely never have a strong enough type system to replace all testing. However, it can replace some testing when combined with mypy. If your types are well specified, you can throw out all the tests around “Does this function do the right thing if I give it the wrong types?”, “Does this function handle None?”, etc. If you start to use prototypes and generic constraints, you can use mypy to check that you are composing correctly. 
+
+The big advantages is for IDEs and tooling. The TypeVar approach is a nightmare for tools to handle. Being able to get “this function takes T and U and returns T” from the signature should help speed up things quite a bit. 
+
+In the future, I could see mypy being integrated into python and allowing an opt-in “strict typing” mode which increases startup time but allows python to generate better machine code or just automatically create the guard code for incorrect types for you. Alternatively, this would open up ahead of time compilation, which might enable you to figure out everything in interpreted mode then compile for production.",2023-04-08 15:13:28,4,2uuylk7f,lightmatter501
+jfexckg,12f3glm,t1_jfes1jp,"The core answer for me is if I could replace python with statically typed similarish language with same library ecosystem I likely would. Python is used by many groups for variety of reasons. I work on large production numerical/ml libraries in python. Python dominates ml ecosystem and most other languages are worth little consideration for products that use deep learning. At same time typing is still very useful as both form of documentation and for making refactors/changes in large codebases safer.
+
+As for your linter point I value linters strongly. My current codebase requires code to lint check, pass documentation rules, pass type checker, and test coverage rules. Type checking does not replace testing. I consider it to be stronger then typical linter and both linters/type checkers I find very valuable in refactors and following larger codebases 
+
+I think this feature does make following generics a good deal more straight forward. The current way of doing it makes generic methods of class very ambiguous and easy to confuse generic function in a class vs generic class’s function which look almost same but mean two different things. Python is also rather weird in that almost no other language with generic has comparable syntax today. I’ve coded in bunch of languages to some degree and can’t think of any language with similar way of doing generics as python for defining type variables. I think for developers that write generic functions new syntax will be more friendly to use and follow.
+
+Lastly I would not consider conciseness a goal of python. The new syntax is more concise then existing way of defining TypeVar for 1 function but even if it mildly longer that would not be main consideration for me. There are parts of python that look like pseudo code but there are many ways it does not optimize for conciseness like custom operators. Haskell is much more concise and dense language used by a couple companies. J is even more extreme concision language but I’d consider J to be pretty difficult to read and very special case.",2023-04-08 05:52:43,24,nemgl,Mehdi2277
+jffm9dh,12f3glm,t3_12f3glm,"I like the syntax for generics, full stop.
+
+I wish the context specific `type` keyword was a separate PEP. Because i require it so infrequently by comparison that I’m less certain it needs special syntax at all. But also because it feels like something like`T: list | dict` would have been simpler?",2023-04-08 11:38:09,3,aj1ll,DanCardin
+jfjoa0v,12f3glm,t1_jffm9dh,I think you can use the type alias in active code like \`isinstance\`—it's not just for the type checker?  Someone please correct me if I'm wrong.,2023-04-09 07:35:35,1,k2gjg,energybased
+jfefaz0,12f3glm,t3_12f3glm,"I'm not sure how I feel about this. Its an improvement, for sure, but I'd prefer that type variables be (queue the horror) implicitly declared somewhere within the round braces, as opposed to in the square braces preceding the rest of the definition.
+
+I suppose its a step in the right direction, though :)",2023-04-08 02:46:10,9,v9sl3tl7,InspectionCorrect242
+jfehxth,12f3glm,t1_jfefaz0,"I totally share your sentiment. 
+
+```def func[T](a: T, b: T) -> T``` 
+
+and
+
+```class ClassA[T: str](BaseClass):```
+
+will definitely take a while to get use to!
+
+Edit: I don't understand why they did not chose ```< >``` for this purpose. AFAIK ```<``` and ```>``` are the only ""enclosing"" characters that still not used in python (other than as a convention for the ```__repr__``` of... types!).",2023-04-08 03:09:35,9,4auyx,jimtk
+jfe7oim,12f3glm,t3_12f3glm,"This is absolutely fantastic, I already love writing Generic Code and this is going to simplify things a lot.",2023-04-08 01:41:18,8,v12atn7h,Dazzling-Reason-5140
+jfe1p01,12f3glm,t3_12f3glm,This is a great step forward! Nice work everyone involved.,2023-04-08 00:52:07,24,3rprs,r1chardj0n3s
+jfecvou,12f3glm,t3_12f3glm,"This looks great to me, because despite loving typed code I.... do not understand generics and TypeVar. At all. I have no clue what they're for, haven't needed them yet that I can tell, and feel really dumb for not getting it. But I just don't get what they are for and every explanation has for some reason not clicked for me yet.",2023-04-08 02:25:04,48,pp64t,oramirite
+jff4n4k,12f3glm,t1_jfecvou,"Answer this, how would you annotate this function
+
+    def f(x):
+        """"""What comes in comes out""""""
+        return x
+
+
+Hint, what type does this function return?",2023-04-08 07:30:27,2,j08pz,diamondketo
+jfekbey,12f3glm,t1_jfecvou,[deleted],2023-04-08 03:31:37,2,deleted,deleted
+jfeftvs,12f3glm,t1_jfecvou,"It is for documenting code that does very _generic_ things. For instance, a simple function that returns the last element of a sequence. 
+
+```
+from typing import Sequence, TypeVar
+
+T = TypeVar (""T"")
+
+def last(x: Sequence[T]) -> T:
+    return x[-1]
+```
+
+Using the generics type hinting allows you to show what it is doing with better clarity.",2023-04-08 02:50:42,11,4c1u3,c_is_4_cookie
+jfeek1o,12f3glm,t1_jfecvou,"Have you never had to write a function that could accept a huge number of types in its arguments and would always return something of the same type as those arguments? Like an add function?
+
+You could have it accept Union[int, float, str, MyClass1, List] etc, but how could you enforce that the thing that it returns is the same class as the one being thrown to it? That's what generics are for. This way, you can throw most anything to it anywhere and mypy or whatever type checker you use would know that the same type would be returned.",2023-04-08 02:39:39,39,2nfxg,thatguydr
+jfedzz6,12f3glm,t1_jfecvou,"Imagine you have a function that can take argument of any type and will always return the same type. You can type both arguments and return value with Any but this semantically is not correct because argument and return value will always have the same type. This is where we'd write something like
+
+`def foo(T) -> T:`",2023-04-08 02:34:47,48,1i5j0jl5,saint_geser
+jfe605a,12f3glm,t3_12f3glm,I do think the discourse about this being too magical is a valid... But because this vaguely resembles syntax for generics in other languages and because it's not too much of a mental hurdle to figure out what is going on behind the curtain I think it's totally welcome.,2023-04-08 01:27:17,64,l2x0e3z,Ezlike011011
+jfdra61,12f3glm,t3_12f3glm,"[PEP 695](https://peps.python.org/pep-0695/) has been accepted. From the Abstract:
+
+> This PEP specifies an improved syntax for specifying type parameters within a generic class, function, or type alias. It also introduces a new statement for declaring type aliases.
+
+The [examples](https://peps.python.org/pep-0695/#summary-examples) section of the PEP is a great summary. We no longer have to declare `TypeVar`, nor do we have to specify the variance. Generic functions and classes now look much more similar to how they do in other languages, `def func[T](a: T, b: T) -> T: ...`. This is a big win for typing usability.",2023-04-07 23:28:37,190,6rgnq,Flamewire
+jfs9rf2,12ha6mc,t3_12ha6mc,"Ruff is so fast and catches (and maybe fixes) so many things that despite not being perfect it is 100% amazing as a first line. 
+
+It also keeps evolving so fast. It already replaces isort 100%. 
+
+I wonder if it will replace black?",2023-04-11 03:27:04,1,woat8,Spleeeee
+jfqkxfk,12ha6mc,t3_12ha6mc,"pardon my language because im new to python, whats a linter?",2023-04-10 19:59:06,1,75g8g0w2,James_Animation
+jfrjez3,12ha6mc,t1_jfqkxfk,"TL;DR:
+
+A linter is a tool that checks your code for mistakes and style issues. PyLint, Flake8, Black, and Blue are popular Python linters. Ruff is a new tool that can replace multiple linters (and also soon [format your code like Black/Blue](https://github.com/charliermarsh/ruff/issues/1904).
+
+
+Long form:
+A linter is a tool that analyzes your code for potential errors, bugs, and stylistic issues (like [black](https://github.com/psf/black). It checks your code against a bunch of rules someone made (like Black, that is PEP8 compliant)
+
+In Python, there are several popular linters such as PyLint, Flake8, and Black. These linters perform various checks on your code, including syntax errors, variable names, code formatting, and code complexity.
+
+- PyLint analyzes your Python code for errors and style issues, and assigns a score based on the quality of your code.
+- Flake8 checks your code for style issues, syntax errors, and potential bugs.
+- Black and Blue are Python code formatters that automatically reformats your code 
+- MyPy, while not a linter in the traditional sense, focuses specifically on type-checking and does not perform general code quality checks like PyLint or Flake8.
+
+What's interesting is not just Ruff's ability to outperform many of these tools, but its ability to take your pipeline of 5+ tools to do these things and use one thing (Ruff) instead.
+
+Ruff is also aspiring to be a code formatter like Black/Blue with some configuration allowed. So, maybe soon, we can see another tool replaced by Ruff :) (https://github.com/charliermarsh/ruff/issues/1904)",2023-04-11 00:02:55,2,jlklb3zi,monorepo
+jfowcf0,12ha6mc,t3_12ha6mc,"I tried it, it's very fast. However it totally ruined some of the imports and broke my code. So I had to revert the code and stop using it.",2023-04-10 13:07:12,1,9mk0m,svenvarkel
+jfqq8hi,12ha6mc,t1_jfowcf0,"If you can reproduce that you might report it. Charlie engages heavily with community and really tackles the issues. Also, Ruff is a really fast moving project, the bug might be gone by now.",2023-04-10 20:34:13,2,2v9jxndi,LordBertson
+jfogr7w,12ha6mc,t3_12ha6mc,Yes. But that workbench though...,2023-04-10 10:21:47,1,we1a3,boycey10802002
+jfoqnle,12ha6mc,t3_12ha6mc,flake8?,2023-04-10 12:15:45,-6,15m4mc,corbasai
+jfqr5w7,12ha6mc,t1_jfoqnle,"If you run a linter on watch-mode, flake8 quickly becomes unbearable on any meaningful code-base. Also, to reproduce ruff's functionality I also need to run isort and unimport, which are two additional explicit dependencies, all of them depending on tons of other Python baggage, versus single Python wrapped Rust binary.",2023-04-10 20:40:22,1,2v9jxndi,LordBertson
+jfoolt9,12ha6mc,t3_12ha6mc,"ruff is good, but it's not 'the pinnacle'. Also, it's good in combination with black, but they sometimes not agreed on line length limits.",2023-04-10 11:55:07,-2,ps08rdmy,amarao_san
+jfqrfv4,12ha6mc,t1_jfoolt9,"Perfect is the enemy of good. Ruff is not perfect, but it's the best available.",2023-04-10 20:42:13,1,2v9jxndi,LordBertson
+jfp3akn,12ha6mc,t1_jfoolt9,"Is there anything left that black can do but not Ruff ? My team is currently removing black and replacing it with Ruff, so I'm wondering if something was overlooked",2023-04-10 14:02:17,-1,2rzmw,aikii
+jfossz5,12ha6mc,t1_jfoolt9,You can configure them to follow the same style. It's like a one line config update.,2023-04-10 12:36:07,10,9ioqj,jah_broni
+jfoyvfi,12ha6mc,t3_12ha6mc,I really don't get this issue. Does the 'speed' have to do with huge projects that I just don't work with? What can this do that Pylance doesn't?,2023-04-10 13:28:05,3,4g505,max1c
+jfqskns,12ha6mc,t1_jfoyvfi,"Few things, you can run ruff in CI as opposed to Pylance. Ruff is editor agnostic, it's a CLI tool, you can run it the same way for Vim, VSCode and PyCharm. Ruff is way faster than any other available tool. Ruff can be configured using standard Python config files.
+
+I appreciate that Pylance is mostly just wrapped Pyright, which you can run in CI. But, I'd be nervous about consistency between editor and CI. This is not a problem with ruff",2023-04-10 20:49:46,1,2v9jxndi,LordBertson
+jfp4zh6,12ha6mc,t1_jfoyvfi,"There's a big difference between having your tools run in 5 seconds versus 50 seconds. You'll be more willing to run them more often, which means you catch errors earlier and save more time.
+
+Maybe Ruff isn't a replacement for everything, but at the velocity it's been developed at, it wouldn't surprise me if it does end up replacing several existing tools.",2023-04-10 14:14:41,16,369qx,AlSweigart
+jfoj9nc,12ha6mc,t3_12ha6mc,"I don't think people care too much about speed of linters, like 10x faster than flake8 is sure less than a second but at the moment what is it like 3-5 seconds even on fairly large codebases. I think the selling point here if it gets to widespread adoption is reducing the amount of dev dependencies because it's a pain to remember to keep them updated.",2023-04-10 10:54:40,10,5nlxe,FlukyS
+jfpkcsk,12ha6mc,t1_jfoj9nc,"running black, isort, and flake8 on the codebase i work on currently takes about 35 sec. ruff does it in less than 1 sec.  since that’s hooked into my IDE i think the performance is a breath of fresh air. 
+
+i can see what you mean about 3s versus milliseconds. but given my use case ruff is a game changer",2023-04-10 16:00:17,3,9wkmv,bmrobin
+jfp0d6v,12ha6mc,t1_jfoj9nc,"Yeah I'm not productive enough to pretend like shaving a couple seconds off every commit is big deal to me. Hell in the time it took me to read this thread, and make this comment, I've already wasted more time than the speed up of a specific linter would save me.",2023-04-10 13:40:00,3,svbor,COLU_BUS
+jfooh0x,12ha6mc,t1_jfoj9nc,"It helps for CICD on larger codebases and big commits. It's rarely ever the longest part of any step, but it is useful to get results faster.",2023-04-10 11:53:46,6,orzv4,Ryankey721
+jfosrsp,12ha6mc,t1_jfoj9nc,"If you're using it will null-ls or something to provide live feedback via lsp, I think speed matters. I find it strange the maintainers don't stress this use case, because that's one of the only times I think it matters.",2023-04-10 12:35:49,6,4qou1,Datsoon
+jfokmmw,12ha6mc,t1_jfoj9nc,"I care about speed. I have real time linting set up in VSCodium. Works great with Ruff, but with other linters it takes like 10-20 seconds before any warnings show up.",2023-04-10 11:11:21,16,jmhzcqes,zehkira
+jfotmvd,12ha6mc,t1_jfoj9nc,"> I don't think people care too much about speed of linters,
+
+I do. I have a good sized code base and gaining these seconds when you lint often is appreciated.",2023-04-10 12:43:40,9,36n3l,chub79
+jfojka9,12ha6mc,t1_jfoj9nc,It’s annoying when a flake8 pre-commit hook takes a few seconds to run on a commit with lots of files. I treasure ruff for this reason.,2023-04-10 10:58:24,36,d6ylo,pacific_plywood
+jfoc2se,12ha6mc,t3_12ha6mc,Implementing custom plugins with only Python knowledge is out of the question at this point.,2023-04-10 09:13:45,11,3vb52v1a,frostbaka
+jfp5mwf,12ha6mc,t3_12ha6mc,"We've migrate the Litestar (ex. Starlite) pipeline to this. I finished the setup of the new `pre-commit-config.yaml` and ran it. I almost fell off my chair - ruff was so incredibly fast. I'm not talking about a lot faster, it was about 100 times faster than the previous pipeline, and it actually improved on a huge amount of stuff we had.
+
+One more thing - im somewhat of a nerd of linters, and have spent a great deal of time creating a great pipeline for our codebase. But I gotta hand it to ruff, it's a terrific tool that does as it's advertised.",2023-04-10 14:19:28,10,9t15mit,Goldziher
+jfp0739,12ha6mc,t3_12ha6mc,"ruff replaced pylint and flake8 for me in my vim config (with ALE).
+It offers almost everything that the others did, but it's blazing fast. And development is very strong, new checks get added all the time.",2023-04-10 13:38:41,5,46ojb,jangeboers
+jfohfww,12ha6mc,t3_12ha6mc,"I started using ruff alongside flake8, pylint and the usual, and it's amazing how fast, how easily configurable it is and just generally pretty awesome. I hope I'll be able to convince my team to adopt it. It's just so much better.",2023-04-10 10:31:01,22,kv20o,mikat7
+jfoh3yg,12ha6mc,t3_12ha6mc,"I have tried ruff out and it is very fast and catches lots of issues, but it is not mature enough to have earned the title of this post. Pylint is still more capable and can catch things like wrong parameters to functions and invalid imports. I won’t be able to view ruff as more than a complimentary tool until it can catch these types of errors.",2023-04-10 10:26:28,65,8z3uv,drphillycheesesteak
+jfpfd0e,12ha6mc,t1_jfoh3yg,"I have not been convinced by pylint compared to flake8. My intern used it on a project and introduced a bug that flake8 catched right away, which led me to ask to use the same tooling as me.",2023-04-10 15:26:55,1,2z1idt46,LardPi
+jfomc7o,12ha6mc,t1_jfoh3yg,Mypy catches those types of errors. And unlike Pylint it doesn't generate a stupid amount of false positives.,2023-04-10 11:30:49,48,ohbbhypg,TrueAd3615
+jfopzbr,12ha6mc,t3_12ha6mc,"From what I've read, Ruff has two major strengths that are greatly superior to other Python linters:
+
+1. Speed. Ruff is very fast.
+2. Hype. Try searching Google to find out more about Ruff and there are pages of hits about how fast it is. Despite being the new kid on the block, Ruff has over 11k stars on GitHub vs flake8's 2.7k.
+
+The amount of hype makes me suspicious. I have no doubt that Ruff is good (especially for speed), but it must surely have limitations.
+
+The title of this reddit thread is a great example of excessive hype. I'd much prefer to read an informative review that looked at both pros and cons of Ruff compared with other (more mature) Python linters.",2023-04-10 12:09:02,131,tocow5fl,JamzTyson
+jfso8mi,12ha6mc,t1_jfopzbr,"The best bit is that it combines multiple tools into one. I recently replaced isort and flake8 + various plugins with ruff and them even added more checks to our codebase.
+
+So now I can say I like it black and ruff ;-)",2023-04-11 06:03:09,1,5uu1o,mroximoron
+jfrrqrt,12ha6mc,t1_jfopzbr,"Its big limitation is that it eschews anything that can be fixed by `black`. So no `pycodestyle` checks. This is one of the reasons it's quick.
+
+That, and no plugins.",2023-04-11 01:04:27,1,7ooyh,wewbull
+jfq6ow4,12ha6mc,t1_jfopzbr,...have you tried it though?,2023-04-10 18:25:17,1,75sguhf,lmericle
+jfs3mzs,12ha6mc,t1_jfopzbr,"I can think of a few more:
+
+3. Configuration. Ruff's cascading configuration files (borrowed from ESlint), per-file-ignores (borrowed from flake8) and granular rule inclusion/exclusion give it the best configuration system I've seen. It's a godsend for large monorepos.
+4. No dependencies. Since it's written in rust there are no packages it depends on that could gum up your lock files.
+5. Single tool. Can replace (partially for now) many tools, simplifying lint configuration into a single place.",2023-04-11 02:35:33,2,4629k,ahal
+jfp9u3t,12ha6mc,t1_jfopzbr,"I know it’s anecdata but I think #2 is earned. I have been switching projects over as an alternative to resolving flake8 plug-in version conflicts (we use flake8–eradicate) and it’s basically trivial to switch and it makes editing and our pre-commit hooks notably faster since you have one thing to manage replacing flake8, isort, pylint, pyupgrade, bandit, etc.",2023-04-10 14:49:05,5,1novk,acdha
+jfs1kpd,12ha6mc,t1_jfopzbr,"I appreciate this. I try to be clear and honest about Ruff's strengths and weaknesses -- there are some cursory answers in the [FAQ](https://beta.ruff.rs/docs/faq/#how-does-ruff-compare-to-flake8) RE comparisons to other tools -- but since the article mostly talked strengths, I'm happy to suggest a few ""reasons not to use Ruff"". I think about them a lot :)
+
+1. **No support for custom rules or plugins.** This is Ruff's biggest limitation right now. E.g., Flake8 has a robust plugin system, so anyone can extend Flake8 with custom rules. Ruff doesn't support that. (I'd like to support plugins in the future, but we're not working on it right now.)
+2. **""Less powerful"" static analysis.** Compared to Pylint, Ruff is ""less powerful"" right now. It doesn't look across files, it can't catch things like ""wrong number of arguments provided to a function"", it doesn't really do any branch analysis, and so on. It's similar to Flake8, in that way. I'm certain that Ruff will improve here, but if you straight-up replace Pylint with Ruff, you might feel like you're missing certain kinds of analyses that Ruff can't yet support.
+3. **Less stable / more churn.** We still haven't published a ""stable release"". We're on version 0.0.260 or so. To be honest, we used to be a little more brazen about publishing breaking changes -- now that we have a bunch of projects relying on us, we're pretty careful and hesitant. But, it's true that you'd expect a tool like Flake8 or Pylint that's been around for years to give you less churn on configuration, diagnostics, etc.
+4. **You're happy with your linter.** If Ruff's strengths don't resonate with you, that's of course fine too. (Although you might be surprised. I think there are a lot of happy Ruff users who wouldn't have expected a ""faster linter"" to be impactful to them before they tried Ruff.)
+
+I hope that the hype around Ruff is just a sign that we're building something people like to use (though in reality I'm sure it's also luck). I get a ton of motivation out of reading comments like those in this thread. From my perspective, I really just try to focus on building out the tool itself, supporting contributors, and being responsive to issues.",2023-04-11 02:19:10,5,36q0af05,charliermarsh
+jfoy1fm,12ha6mc,t1_jfopzbr,"> Hype
+
+Sounds grumpy but that's not wrong. Ruff ending up as more notorious than Mypy is plain weird.
+
+That's said I'm happy to drop redundant reformatters such as black and isort. I don't expect much from Ruff when it comes to check correctness, until it fully implements type checking. It's a lot of work.",2023-04-10 13:21:23,13,2rzmw,aikii
+jfpk4cn,12ha6mc,t1_jfopzbr,"Ruff does sound really cool and is seeing some adoption among major projects, but it feels very much in beta right now, and does not (yet) integrate perfectly with IDEs, which I have no idea how anyone finds value in a linter that is not well integrated with their IDE.
+
+I tried to use the vscode extension but it was so poorly documented I couldn’t make sense of the configs. Getting it working properly with the same config used in my pre-commit hook was difficult enough it was easier for me to just uninstall and go with a more well supported linter. It’s more important to me that it’s stable, well documented and easy to use than infinitely configurable and fast. 
+
+And before someone tells me they figured it out no problem, you have to understand that I’m an idiot, and its important to me to have idiot-proof tools. Ruff is not yet idiot proof, and looking at their docs and integrations it has a good bit to go before it is.",2023-04-10 15:58:43,20,7pxby,ColdPorridge
+jfpytet,12ha6mc,t1_jfopzbr,"There are a few more. 
+
+* It brings all of the functionality of flake8, isort, pyupgrade, and dozens of other tools into one tool. It's still faster than any one of those tools, and it's only one dependency.
+* The maintainer seems like a pleasant person who's willing to work with the community and enjoys what he's doing. Look through the issue tracker on flake8. 90% of them are closed and locked to contributors after a single reply of ""use the issue tracker"". When you google a problem you're having with flake8, the most likely top result is a closed issue that just says ""you clearly didn't search the issue tracker"". They clearly don't actually want to work on their own software, which I think drives people away. Charlie on the other hand is releasing several times a week and actively engaging on trying to solve issues without writing people off or shutting them down.
+* Related to the last one, flake8 has some issues that they won't fix seemingly just out of stubbornness, regardless of how much of a problem they cause to the community.
+   * They refuse to support pyproject.toml configuration despite overwhelming desire for it, and shut down threads for it with ""search the issue tracker"". The issue that explains their reasoning is copied from gitlab and near impossible to follow. 
+   * They also pinned their dependency on importlib-metadata to < 4.3  for years for what was as far as I could tell a petty personal vendetta. This meant that flake8 couldn't be installed in the same environment as many other popular packages, such as Sphinx.",2023-04-10 17:34:29,12,ubbjkanq,Physical_Drawer6740
+jfpqah3,12ha6mc,t1_jfopzbr,"I think the hype just comes from comparison to flake8.
+
+The status quo was flake8 + flake8-bugbear + flake8-docstrings and a handful of other plugins. Performance sucked with extra plugins, and the maintainer being kind of close-minded really hurt what was possible (flat out refused pyproject.toml config and never accepted new lints). Pylint was an option, but the configuration experience was pretty terrible.
+
+Enter ruff: it gives us the simplicity of flake8, plus the features we didn’t know we want - speed, no plugins necessary, pyproject.toml config, and a welcoming maintainer who’s open to change. Everyone who tries it likes it better than the status quo, because the status quo was awkward and stale (but we just didn’t really realize it)
+
+It deserves the hype imho, I don’t have a good reason to ever go back to flake8.",2023-04-10 16:39:35,25,r7r1d,trevg_123
+jforttz,12ha6mc,t1_jfopzbr,"Talk Python has a great episode where Michael talks to Charlie Marsh, the creator of Ruff, about what it does, what its limitations are, and what his future plans are for it.
+
+They cover comparisons with other tools and overlap/gaps in functionality. Even if you're not a podcast person, I really suggest giving it a listen.
+
+[https://talkpython.fm/episodes/show/400/ruff-the-fast-rust-based-python-linter](https://talkpython.fm/episodes/show/400/ruff-the-fast-rust-based-python-linter)
+
+And, if you are a podcast person, I'd seriously recommend listening to [Python Bytes](https://pythonbytes.fm/) and [Talk Python](https://talkpython.fm/). I wish every language had a Python Bytes style podcast.",2023-04-10 12:27:02,74,nmjkw,pfeifnuts
+jfamgsy,12dfdq1,t3_12dfdq1,Amazing. I needed a scrapper anyways and you gave me one,2023-04-07 08:28:44,1,96fjxovn,Pyro_Jackson
+jf6j5wo,12dfdq1,t3_12dfdq1,"I need technical details. Where does the song being downloaded from, in which codec at what bitrate. Are the songs being reencoded? These questions are super relevant to judge the expected sound quality. Worst case you scrape Spotify playlists and get the songs from Youtube, which is super bad.",2023-04-06 13:10:27,-24,8vbwl,scinaty2
+jf83xco,12dfdq1,t1_jf6j5wo,"He literally posted a link in the post to the source code of his program with a detailed readme lol.
+
+I would understand if this were a music subreddit and asking you to look at the Git would be asking too much.
+
+But this is /r/Python.",2023-04-06 19:29:52,4,4ekiepkh,JollyJustice
+jf6r86a,12dfdq1,t1_jf6j5wo,Have you tried reading the README? It looks to the relevant answers,2023-04-06 14:10:53,20,duznv,wannabe414
+jf8h0nd,12dfdq1,t3_12dfdq1,"Little tip, use Pyinstaller to package your dependencies with your Python program. Saves people from having to mess with enviornments and packages.",2023-04-06 20:56:21,4,6ns7k,Fenastus
+jf6uejo,12dfdq1,t3_12dfdq1,Maybe I’m missing something but have you not just made a tool to easily pirate music?,2023-04-06 14:32:43,18,16mveu,pettenatib24
+jf88nye,12dfdq1,t1_jf6uejo,"There have been some tools in the past that allow you to download from Spotify (yes, actually download, not automated recording or something, you get the original Ogg file).
+
+I won’t post any links, but those are easily findable on GitHub, not sure if it still works.
+
+For most users, pirating is useless these days, just use Spotify and you’re good. I wish there was some official integration in DJ software by Spotify, so you could build your set before having to buy the tracks first and then finding out they don’t fit.",2023-04-06 20:01:05,1,i650h,CeeMX
+jf746dr,12dfdq1,t1_jf6uejo,What's the problem then,2023-04-06 15:37:36,15,5vbpquk9,Nicola_ProNoob
+jf7dvp8,12dfdq1,t1_jf6uejo,Well op did cross post it to /r/piracy,2023-04-06 16:40:17,21,99a5p,CTR0
+jf6szab,12dfdq1,t3_12dfdq1,"Is this intended to NOT be used with a premium account? 
+
+Or with?
+
+https://i.imgur.com/4GW4Mb2.png",2023-04-06 14:23:03,12,f1in9,Yes_Dear_
+jf6wnig,12dfdq1,t1_jf6szab,"To avoid having your account banned, it won't let you use a premium account. 
+
+Just open a throwaway. You don't need a premium account to download",2023-04-06 14:47:49,24,3brony28,BeingHeldAgainstWill
+jf81qr7,12dfdq1,t3_12dfdq1,">including the time-synced lyrics!
+
+Oh you beautiful bastard.  
+
+I've been looking for a good ways to get these for a karaoke project I'm working on.  
+
+Serato Lite 3.0 is free DJ software that allows you to remove the vocals from a track with just a little bit of preprocessing. Now I have a way to hopefully sync the timecode on Serato with the timecode on the lyrics on the fly. 
+
+Wish me luck.",2023-04-06 19:15:31,13,4ekiepkh,JollyJustice
+jf896pd,12dfdq1,t1_jf81qr7,Serato can do that?,2023-04-06 20:04:32,2,i650h,CeeMX
+jf85ys7,12dfdq1,t1_jf81qr7,"My pleasure! Good luck with your venture!
+
+&#x200B;
+
+ \- do be sure to not violate any intellectual property laws...",2023-04-06 19:43:25,6,3brony28,BeingHeldAgainstWill
+jf7f9x3,12dfdq1,t3_12dfdq1,"Where are the keys from in keys.py and deezer_utils.py (in the get_blowfish_key method)? Are these based off of spotify/deezer applications? I think you may be leaking your keys.
+
+EDIT: Also scraping spotify premium cookies from rkstore is shady shit",2023-04-06 16:49:14,19,99a5p,CTR0
+jf8w838,12dfdq1,t1_jf7f9x3,Can you ELI5? Is this code dangerous to use for a dummy like me?,2023-04-06 22:42:55,3,in9fs,is_it_fun
+jf6i45b,12dfdq1,t3_12dfdq1,Working with Spotify is always a pain in the ass. Half of the good api endpoints are behind premium account. I’ll check out your code sometime.,2023-04-06 13:02:02,38,2x1wya5s,ZyanCarl
+jf6l2s3,12dfdq1,t1_jf6i45b,I found a trick to authenticating with both a real user and an API bot at the same time. This somehow eliminated all restrictions!,2023-04-06 13:25:19,33,3brony28,BeingHeldAgainstWill
+jf690fa,12dfdq1,t3_12dfdq1,I’m really curious as to how and why you could use it with ML.,2023-04-06 11:40:11,47,r6xds45,subiacOSB
+jf8qmwq,12dfdq1,t1_jf690fa,"Why? Many things! Here’s just a few for example:
+
+Will I like a song based on its melody?
+
+Is this an upbeat or relaxing song?
+
+Will this song make me happy or sad?
+
+What artists are similar to the artists I like?
+
+How? Well you have to a little work before you can train a NN to categorize the above examples. You’d need an answer key so that the algorithm can “learn” what the right answers are, and then can extrapolate it’s results into data it’s never seen before. 
+
+Since this is a Python library, PyTorch could probably get the job done.",2023-04-06 22:02:12,1,p7mid,Caveman112233
+jf7rhpp,12dfdq1,t1_jf690fa,You can use ML to categorize by genre or predict if you would like a song.,2023-04-06 18:08:05,2,fko1e,marvelmon
+jf69cap,12dfdq1,t1_jf690fa,"I actually this week wrote a song recommendation module which recommends songs based on the semantic similarity between their lyrics. 
+
+Part of the code (heavily reliant on imports): https://github.com/Michael-K-Stein/Michael-K-Stein.github.io/blob/master/semantics.py",2023-04-06 11:43:34,67,3brony28,BeingHeldAgainstWill
+jf3yy1p,12cgplg,t3_12cgplg,SEO at work...,2023-04-05 22:03:21,-1,8tv39,Ninjakannon
+jfbh58g,12cgplg,t3_12cgplg,"This is a decent, concise intro to scraping.  Scraping is a great intellectual challenge, and a cracking way to learn python.  You can scrape anything if you put your mind to it.  I have resorted to wgetting the source and extracting the data from that if the site is complaining about no javascript.  Or even screenshot the page and OCR.
+
+Put in a few hours coding a decent bit scraping with Python and you'll come away knowing a hell lot more about programming, HTML, and that.
+
+Throw in some Pyautogui into the bargain.",2023-04-07 14:02:12,2,rqiy662d,goochockipar
+jf5mv40,12cgplg,t3_12cgplg, This is just GoLogin marketing,2023-04-06 06:41:18,2,rl7lahl,jabellcu
+jf5nyqp,12cgplg,t1_jf5mv40,"Well, up to some point, yeah. Gologin is heavily used by scrapers, and I believe scraping will get harder with more and more anti-bot measures implemented. So, we try to deliver useful content to people involved in web dev. Python guides etc. Should be mentioned it's always the free plan scrapers use bc Gologin has great API access options.",2023-04-06 06:55:55,1,bagwimeb,GoLoginS
+jf20wjj,12cgplg,t3_12cgplg,Why are there so many tutorials on scraping? Is it a useful skill to have?,2023-04-05 14:36:20,18,qna3f1w7,LennyNovo
+jf4epr1,12cgplg,t1_jf20wjj,"My first project was a scraper. Wrote my own library for it to learn requests and text manipulation. Then, I had to do another and another. I’m probably just gonna re-learn BeautifulSoup cuz it’s so recurring. For why, I’d say they fall into a few categories:
+
+1. I wanted a copy of all the best submissions and comments on my favorite tech site (Lobste.rs) at one point. That was originally to experiment with better search features using local software. A third-party site with same content might facilitate better searching. Or ranking, curation, etc.
+
+2. Many sites are bloated. They can be slow at home. My job now puts me on the worst, mobile connection in the area. Like pi-hole or UBlock Origin, a scraper can let me get just what I need, transform it into a compact view, and send it over weak connection.
+
+3. Related is bypassing buggy UI. One example is BibleGateway which I pay for to use with my sites (see profile). I needed Spanish verses since I was serving Hispanic community, too. It had some feature that gives you all English or all Spanish translations if you ever pick one. Hard to go back. On such sites, it’s easier to use a URL generator to reliably get to content you want. I also scraped out and spliced the key content into a minimalist, HTML page served over Flask. Got *way* faster!
+
+4. That brings us to custom UI’s. One of old concepts for Web 3.0 was the provide data, we connect to it, and transform and view it however we want. You can approximate this with scraping combined with console, GUI, or web libraries. 
+
+5. Old one is getting pricing and availability of something across markets. Comparison shopping. Many stores seem to realize making that easy, like with an API, can lead people to competition’s better deals. Others have restrictive API’s but no restrictions on main site. You might have to custom-make scrapers for sites that didn’t try to present the info in a machine readable way. You can also sell or trade on this kind of info.
+
+6. Site uptime monitor. Scrapers can make for a basic monitor. You don’t need to know networking. 
+
+There’s just a few things I’ve done or tried to do in the past month while learning Python.",2023-04-06 00:00:41,9,iw119tej,heswithjesus
+jf2295t,12cgplg,t1_jf20wjj,"Scraping can generate an income comparable to a full time job. Organized data gets sold for enormous money these days. I know people who have scaled from 1 enthusiast to full on web scraping businesses with hired employees. So, yeah.",2023-04-05 14:45:24,27,bagwimeb,GoLoginS
+jf42zno,12cgplg,t3_12cgplg,"Scraping government or publicly api available data is a breeze. Things get more complicated when your source is not in on the game. It can get quite challenging. Try scraping Amazon, and you'll see what I mean.",2023-04-05 22:32:28,13,4w9ht3ao,andesouz
+jfeco83,12cgplg,t1_jf42zno,"^ for people on here trying to sell scraped data - govt stuff can be great. First there’s almost never any question to it being public/allowed. Second it’s often “available” but in an incredibly inconvenient way (like being published at the state or county level). 
+
+There’s whole businesses which only scrape and normalize government data.",2023-04-08 02:23:20,1,f4op1,thecarlosdanger1
+jf4fna6,12cgplg,t1_jf42zno,"I’ve always thought it’s an area the AI folks could put more attention into. Make one that would keep spotting the correct fields, saying no to the popups, applying coupon codes that actually work, doing shipping comparisons, reusing same supplier across items, etc. 
+
+People might pay $20/mo for *that* if it would save them time and money on other stuff.",2023-04-06 00:07:41,4,iw119tej,heswithjesus
+jf5on67,12cgplg,t1_jf42zno,"Anti bot measures (like most social platforms and server providers have) will only progress. The privacy browser gologin mentioned in the article helps with that. Try checking it out if you're somehow involved. It's used by scrapers heavily against Cloudflare and Kasada protected websites, etc.",2023-04-06 07:05:24,3,bagwimeb,GoLoginS
+jf2qbrj,12cgplg,t3_12cgplg,Ya I do this for fun.  How can I do this for money,2023-04-05 17:20:08,30,hd8bs24t,Extreme_C_saw
+jf6c9kc,12cgplg,t1_jf2qbrj,"You have some shitty gouvernement site where you can find public data but not in full. You search and got partial results, not a big Excel or csv file with everything.
+If you scrap it some people might want buy it.",2023-04-06 12:11:27,2,abi4b,Lovecr4ft
+jf4pr8z,12cgplg,t1_jf2qbrj,"sammeee, I sit here and write scrapers for fun in my free time lmao. I watched a guy on Youtube who made scraping his job and he basically set up an API service and sells information and data to people who can use it. I think his specific job was collecting public data on court cases and the people in them and selling that to law firms etc... sounds boring but could be pretty lucrative.",2023-04-06 01:24:04,12,v5av1,SweetBabyAlaska
+jf1f77m,12bl2uj,t3_12bl2uj,Is the config package used in the code?,2023-04-05 11:43:21,1,sa4e7q5x,thedeepself
+jf1emmo,12bl2uj,t3_12bl2uj,Yaml is not in the requirements file but it is used in the source. Is Yaml a part of recent python releases?,2023-04-05 11:37:27,1,sa4e7q5x,thedeepself
+jf063ri,12bl2uj,t3_12bl2uj,great idea and execution !,2023-04-05 02:46:59,1,4ymq4,viksi
+jf017hf,12bl2uj,t3_12bl2uj,Ken Lay and Elvis are on a beach somewhere right now.,2023-04-05 02:08:55,1,ecphpu07,MoistureFarmersOmlet
+jf1l0uw,12bl2uj,t1_jf017hf,Good ol Kenny boy,2023-04-05 12:37:23,1,89syl1dx,WhyDoIHaveAnAccount9
+jezrcq0,12bl2uj,t3_12bl2uj,"It is interesting how prior to the rise there is a distinct sea change, but nothing before it falls, only the fall itself seems to generate a reaction.
+
+I would love to somehow see this same thing for 1000s of other companies.
+
+I talked with someone who worked fairly near the top. They told me how fantastically defective the executives were, but that the whole collapse was not seen by anyone even though many afterword could point to all kinds of things and say, ""I should have known because of...""",2023-04-05 00:55:30,1,64fqe,EmperorOfCanada
+jf052sc,12bl2uj,t3_12bl2uj,"You know who else might like this, /r/ediscovery, that's the OG dataset for those folks.",2023-04-05 02:38:47,2,4rwfr,StorkBaby
+jez7iin,12bl2uj,t3_12bl2uj,"cool, it's like an amoeba under a microscope.",2023-04-04 22:27:58,2,u4hf9ba,liaisontosuccess
+jez5abf,12bl2uj,t3_12bl2uj,"Nice! That's a really good idea, definitely checking it out.
+
+Random note about that dataset: I was inferencing with GPT-J-6B and randomly got back an email chain between some folks at enron, with bits of my prompt mixed in. It was fascinating",2023-04-04 22:11:42,3,8um8szao,pointmetoyourmemory
+jez4ubm,12bl2uj,t3_12bl2uj,"This is REALLY cool.   
+
+
+I'm building a journaling app for high schoolers, and I think it would be really cool to have something similar. They enter their activity for the day and that data is sent to an AI api with a request to write a journal entry about what they accomplished that day in the voice of a person who is determined to live a healthy and fulfilled life by leaving a positive impact on the world. They then use that journal entry as a starter paragraph for a free-flow journaling session.   
+
+
+The app will send weekly charts showing their adherence to positive habits and other metrics, but seeing this got me thinking that it would be cool to have something similar to analyze their free-flow sessions and compare it to things like what activities they are doing, etc.  
+
+
+awesome project here, thanks for sharing.",2023-04-04 22:08:30,3,yk6qe,Oronoque
+jeyzbmm,12bl2uj,t3_12bl2uj,"This is super cool, and the Lexicon you're using could be very useful for a project I've been thinking about for awhile. Thank you for sharing!",2023-04-04 21:30:09,3,8ch8uerez,Interesting_Flow730
+jeysn09,12bl2uj,t3_12bl2uj,Can you also use this for stock analysis?,2023-04-04 20:44:50,3,p44al9b,Lobbel1992
+jeys4h0,12bl2uj,t3_12bl2uj,"This is super nice. 
+I am going to read your blog later.",2023-04-04 20:41:28,3,p44al9b,Lobbel1992
+jeyopru,12bl2uj,t3_12bl2uj,Super cool,2023-04-04 20:19:40,3,c801x,wooyouknowit
+jeyulrc,12bl2uj,t3_12bl2uj,"interesting idea to analyze!
+
+how would you differentiate 'trust' from 'following authority' here, I'd bet there was a lot of people who weren't in the know that were just doing their job, which is more coordinative than trusting",2023-04-04 20:58:05,4,6nd9x5rp,iceytomatoes
+jey92xc,12bl2uj,t3_12bl2uj,Neat.  Post it to /r/dataisbeautiful/,2023-04-04 18:39:08,32,jxyse,athermop
+jf05jxx,12bl2uj,t1_jey92xc,"What's beautiful would be a plot showing all of this, not a YouTube video that shows the same information in a worse way",2023-04-05 02:42:33,20,7ghyk,samreay
+jey4n1s,12bl2uj,t3_12bl2uj,"Bookmarking for after work. Seems right up my alley. Big data, Python, white collar crime!",2023-04-04 18:10:26,21,6w1rk,steezefries
+jeyxtqh,12bl2uj,t3_12bl2uj,are the emails public because they were used in the court cases?,2023-04-04 21:19:50,11,v5tt4,Ruin369
+jez63w8,12bl2uj,t1_jeyxtqh,"yup. the emails that were exchanged between Enron employees were made public as part of the investigation. They've been used for a various number of reasons, though more recently it seems that they've become another small part of [the pile](https://pile.eleuther.ai), a dataset that quite a few language models are trained on.",2023-04-04 22:17:42,18,8um8szao,pointmetoyourmemory
+jeywttj,12bl2uj,t3_12bl2uj,"your github link is not working as of 1612 central time
+
+Edit: 1900 central. Still getting 404
+
+Edit: this works -> https://github.com/SuperflowsAI/enron-sentiment-analysis
+
+Credit to u/ShadowDocket",2023-04-04 21:13:04,23,89syl1dx,WhyDoIHaveAnAccount9
+jf0v8f8,12bl2uj,t1_jeywttj,"Whoops! Sorry about that. Looks like you found the right one! 
+
+Accidently sent the private repo I was working from. Have edited the post to update this",2023-04-05 07:15:14,2,alzl8hco,Ok-Craft-9908
+jf00txb,12bl2uj,t1_jeywttj,[deleted],2023-04-05 02:06:08,9,deleted,deleted
