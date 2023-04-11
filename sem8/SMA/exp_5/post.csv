@@ -1,0 +1,92 @@
+id,author,author_id,total_comments,upvote,post_type,title,body,downvote,url,created_on,subreddit,subreddit_id
+12glkw4,TheBodyPolitic1,von3w6y2,319,591,top week,Why didn't Python become popular until long after its creation?,"Python was invented in 1994, two years before Java.
+
+Given it's age, why didn't Python become popular or even widely known about, until much later?",37,https://www.reddit.com/r/Python/comments/12glkw4/why_didnt_python_become_popular_until_long_after/,2023-04-09 14:51:49,python,t5_2qh0y
+12hj9oc,MetonymyQT,shnqm,80,527,top week,Free course: Build a modern API with FastAPI and Python,"Hello everyone! 
+
+I've posted this course 4 months ago on this sub Reddit and it was well received. I want to do another giveaway,
+
+All 3 coupons expire in 4 days and allow for a maximum 1k per coupon redeems.
+
+[https://www.udemy.com/course/build-a-movie-tracking-api-with-fastapi-and-python/?couponCode=90707F6B0050F6D60303](https://www.udemy.com/course/build-a-movie-tracking-api-with-fastapi-and-python/?couponCode=90707F6B0050F6D60303)
+
+[https://www.udemy.com/course/build-a-movie-tracking-api-with-fastapi-and-python/?couponCode=F0744D2CC6E3E1C6E622](https://www.udemy.com/course/build-a-movie-tracking-api-with-fastapi-and-python/?couponCode=F0744D2CC6E3E1C6E622)
+
+[https://www.udemy.com/course/build-a-movie-tracking-api-with-fastapi-and-python/?couponCode=A620331B2F48333F76D7](https://www.udemy.com/course/build-a-movie-tracking-api-with-fastapi-and-python/?couponCode=A620331B2F48333F76D7)
+
+I know the course is not top notch and can be improved a lot but honestly I hope you like it as it is. I've set the lowest price I could set for it on Udemy and I'm just grateful that it helped cover my blog hosting fees over the last 3 years.
+
+Thank you!",21,https://www.reddit.com/r/Python/comments/12hj9oc/free_course_build_a_modern_api_with_fastapi_and/,2023-04-10 13:45:11,python,t5_2qh0y
+12egsoz,2broke2code,rs4dqilj,105,467,top week,"I trained a RoastBot on >120,000 faces and >0.5 million comments and it's a menace 😈.","It uses facial recognition to fetch roasts for users from the r/RoastMe subreddit.
+
+Try it out [here](https://subroast.me)
+
+**App:** [https://subroast.me](https://subroast.me)
+
+**Code:**  [nizarhaider/RoastMe (github.com)](https://github.com/nizarhaider/RoastMe)
+
+# Tech Stack
+
+**Front End:** Bootstrap5 + Vanilla JS
+
+**Back End:** Flask
+
+**CI/CD:** Cloud Build (GCP)
+
+**Deployment:** Cloud Run (GCP)
+
+**Models:** Facenet and MTCNN
+
+&#x200B;
+
+**Edit:**  The entire subreddit has millions of images since 2014 April. I just used a fraction of it. Which means this could be 100x better (or just more accurately racist) given the time and effort to train it.
+
+**Edit2:** At u/Lewis0981 request I've added a 'feature' to see your **match image** (I've seen some bizarre cases of matches so do share them if you get it for a laugh) (Fixed the bug for this)
+
+[RoastMe](https://preview.redd.it/mps1lehexfsa1.png?width=250&format=png&auto=webp&v=enabled&s=e4b2ae973f6ea68e44977bc0c664a68107410616)",35,https://www.reddit.com/r/Python/comments/12egsoz/i_trained_a_roastbot_on_120000_faces_and_05/,2023-04-07 10:36:18,python,t5_2qh0y
+12ffsif,midnitte,3gad9,64,378,top week,EP 684: A Per-Interpreter GIL Accepted,,11,https://discuss.python.org/t/pep-684-a-per-interpreter-gil/19583/42,2023-04-08 08:26:37,python,t5_2qh0y
+12fzdu2,aeluro1,88efmodhn,12,370,top week,Comprehensive Reddit Saved Posts Downloader - retrieves almost all content ever saved,"Hi all, I made a post about this a couple of days ago, but I've made some pretty massive changes since then and I wanted to share it again. I'm super happy with the results.
+
+To recap, this program backs up all of your saved posts on Reddit, obtaining media such as Reddit galleries, Imgur albums, gifs, videos, etc. It stores a local log of all of the files downloaded/skipped.
+
+Since last posting, I've added the ability to load your entire saved post record using information provided by Reddit. However, I noticed that a lot of the content had been deleted or removed, making up about a quarter of all my posts. So now I've implemented the ability to retrieve this information from pushshift and the wayback machine, and it works very well. For reference, I downloaded about 3500 posts from 5+ years back and only had around 200 fail.
+
+Let me know how my code looks and if there's anything I could improve on. Thanks!
+
+[https://github.com/aeluro1/geddit](https://github.com/aeluro1/geddit)",11,https://www.reddit.com/r/Python/comments/12fzdu2/comprehensive_reddit_saved_posts_downloader/,2023-04-08 21:43:41,python,t5_2qh0y
+12f3glm,Flamewire,6rgnq,94,359,top week,PEP 695: Type Parameter Syntax has been accepted by the Steering Council,,11,https://discuss.python.org/t/pep-695-type-parameter-syntax/21646/92?u=tusharc,2023-04-07 23:24:08,python,t5_2qh0y
+12ha6mc,stillreadingit_,8f6n85u,86,331,top week,Ruff: one Python linter to rule them all,,32,https://blog.jerrycodes.com/ruff-the-python-linter/,2023-04-10 06:58:33,python,t5_2qh0y
+12dfdq1,BeingHeldAgainstWill,3brony28,43,318,top week,SpotiFile : Music scraping made easy," 
+
+I made a neat tool to scrape songs (with GUI).
+
+[GitHub Link](https://github.com/Michael-K-Stein/SpotiFile)
+
+All you need to do is install the dependencies (""pip install -r ./requirements""), and then ""python [main.py](https://main.py/)"". It's that easy!
+
+##This tool is mainly aimed at developers looking to create datasets to train ML models.
+
+SpotiFile will open a GUI which lets you enter a playlist, album, artist, or user profile link and download all the relevant songs. This will also download all the metadata of the song, including the time-synced lyrics!
+
+If you use the tool, please give the repo a star :)
+And please tell me how to improve the code quality!
+
+Enjoy!",16,https://www.reddit.com/r/Python/comments/12dfdq1/spotifile_music_scraping_made_easy/,2023-04-06 10:11:05,python,t5_2qh0y
+12cgplg,GoLoginS,bagwimeb,30,315,top week,Step-by-step tutorial on Web Scraping with Python with code snippets,,31,https://gologin.com/blog/web-scraping-with-python,2023-04-05 11:10:38,python,t5_2qh0y
+12bl2uj,Ok-Craft-9908,alzl8hco,24,278,top week,Analysing the emotion timeline of the Enron scandal through their internal emails in Python,"I've been playing around with the Enron dataset in Python. Thought it would be interesting to you folks.
+
+https://reddit.com/link/12bl2uj/video/g2m72xcspvra1/player
+
+&#x200B;
+
+Mainly used pandas, using the dataset of internal Enron emails from their collapse that was released during criminal proceedings.
+
+Also used the NRC Emotion Lexicon.
+
+Blog: [https://www.superflows.ai/blog/enron-sentiment](https://www.superflows.ai/blog/enron-sentiment)
+
+&#x200B;
+
+Edit: sent the wrong repo! 
+
+GitHub repo: [https://github.com/SuperflowsAI/enron-sentiment-analysis](https://github.com/SuperflowsAI/enron-sentiment-analysis)",11,https://www.reddit.com/r/Python/comments/12bl2uj/analysing_the_emotion_timeline_of_the_enron/,2023-04-04 14:37:50,python,t5_2qh0y
